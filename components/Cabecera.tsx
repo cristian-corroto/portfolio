@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 
 const enlaces = [
-  { href: "#inicio", texto: "Inicio" },
-  { href: "#sobre-mi", texto: "Sobre mí" },
-  { href: "#proyectos", texto: "Proyectos" },
-  { href: "#ia", texto: "Cómo trabajo con IA" },
-  { href: "#formacion", texto: "Formación" },
-  { href: "#contacto", texto: "Contacto" },
+  { href: "/#inicio", texto: "Inicio" },
+  { href: "/#sobre-mi", texto: "Sobre mí" },
+  { href: "/#proyectos", texto: "Proyectos" },
+  { href: "/#ia", texto: "Cómo trabajo con IA" },
+  { href: "/#formacion", texto: "Formación" },
+  { href: "/#contacto", texto: "Contacto" },
 ];
 
 export default function Cabecera() {
