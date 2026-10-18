@@ -3,6 +3,7 @@ import Portada from "@/components/Portada";
 import SobreMi from "@/components/SobreMi";
 import EnConstruccion from "@/components/EnConstruccion";
 import Proyectos from "@/components/Proyectos";
+import ComoTrabajo from "@/components/ComoTrabajo";
 
 export default function Inicio() {
   return (
@@ -12,7 +13,7 @@ export default function Inicio() {
         <Portada />
         <SobreMi />
         <Proyectos />
-        <EnConstruccion id="ia" titulo="Cómo trabajo con IA" />
+        <ComoTrabajo />
         <EnConstruccion id="formacion" titulo="Formación y experiencia" />
         <EnConstruccion id="contacto" titulo="Contacto" />
       </main>
