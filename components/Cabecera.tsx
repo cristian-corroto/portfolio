@@ -8,6 +8,7 @@ const enlaces = [
   { href: "/#proyectos", texto: "Proyectos" },
   { href: "/#ia", texto: "Cómo trabajo con IA" },
   { href: "/#formacion", texto: "Formación" },
+  { href: "/#aptitudes", texto: "Aptitudes" },
   { href: "/#contacto", texto: "Contacto" },
 ];
 
@@ -27,7 +28,7 @@ export default function Cabecera() {
         aria-label="Principal"
         className={`flex max-w-full items-center gap-1 overflow-x-auto rounded-full border transition-all duration-500 ease-out ${
           reducida
-            ? "border-borde bg-black/60 px-2 py-1.5 shadow-lg shadow-black/40 backdrop-blur-md"
+            ? "border-borde bg-black/85 px-2 py-1.5 shadow-lg shadow-black/40 backdrop-blur-md"
             : "border-transparent bg-transparent px-4 py-2"
         }`}
       >

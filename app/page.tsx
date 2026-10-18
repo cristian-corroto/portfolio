@@ -1,10 +1,12 @@
 import Cabecera from "@/components/Cabecera";
 import Portada from "@/components/Portada";
 import SobreMi from "@/components/SobreMi";
-import EnConstruccion from "@/components/EnConstruccion";
 import Proyectos from "@/components/Proyectos";
 import ComoTrabajo from "@/components/ComoTrabajo";
 import Trayectoria from "@/components/Trayectoria";
+import Aptitudes from "@/components/Aptitudes";
+import Contacto from "@/components/Contacto";
+import Pie from "@/components/Pie";
 
 export default function Inicio() {
   return (
@@ -16,8 +18,10 @@ export default function Inicio() {
         <Proyectos />
         <ComoTrabajo />
         <Trayectoria />
-        <EnConstruccion id="contacto" titulo="Contacto" />
+        <Aptitudes />
+        <Contacto />
       </main>
+      <Pie />
     </>
   );
 }
