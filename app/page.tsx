@@ -4,6 +4,7 @@ import SobreMi from "@/components/SobreMi";
 import EnConstruccion from "@/components/EnConstruccion";
 import Proyectos from "@/components/Proyectos";
 import ComoTrabajo from "@/components/ComoTrabajo";
+import Trayectoria from "@/components/Trayectoria";
 
 export default function Inicio() {
   return (
@@ -14,7 +15,7 @@ export default function Inicio() {
         <SobreMi />
         <Proyectos />
         <ComoTrabajo />
-        <EnConstruccion id="formacion" titulo="Formación y experiencia" />
+        <Trayectoria />
         <EnConstruccion id="contacto" titulo="Contacto" />
       </main>
     </>
