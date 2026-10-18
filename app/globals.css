@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #050505;
+  --color-tarjeta: #0b0b0b;
+  --color-texto: #fafafa;
+  --color-suave: #9f9f9f;
+  --color-borde: rgb(255 255 255 / 0.1);
+  --color-acento: #34d399;
+  --radius-tarjeta: 0.625rem;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+.fondo-cuadricula {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+
+.nombre-metal {
+  background: linear-gradient(180deg, #ffffff 20%, #7a7a7a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
