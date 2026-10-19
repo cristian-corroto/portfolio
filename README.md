@@ -13,7 +13,7 @@ Next.js (exportación estática) · React · TypeScript · Tailwind CSS · Frame
 - Portada animada con mi nombre, lo que busco y mis tres áreas.
 - Proyectos, cada uno con su página de detalle: objetivo, cómo lo hice, qué hizo la IA, estado y límites.
 - Línea de tiempo de formación y experiencia, y aptitudes.
-- Menú adaptado a móvil, modo oscuro, vista previa al compartir y página 404.
+- Menú adaptado a móvil, modo oscuro, imagen de vista previa al compartir el enlace y página 404.
 
 ## Cómo ejecutarlo
 
@@ -26,8 +26,6 @@ npm run build    # genera la web estática en /out
 ```
 
 Los textos de proyectos, formación, aptitudes y contacto están en la carpeta `data/`.
-
-Para que la vista previa al compartir funcione al publicarla, define la variable `NEXT_PUBLIC_SITE_URL` con la dirección real de la web.
 
 ## Autor
 
