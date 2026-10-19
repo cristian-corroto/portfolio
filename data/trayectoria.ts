@@ -1,5 +1,5 @@
 export type Hito = {
-  tipo: "Formación" | "Experiencia" | "Siguiente paso";
+  tipo: "Formación" | "Experiencia";
   periodo: string;
   titulo: string;
   lugar: string;
@@ -8,16 +8,6 @@ export type Hito = {
 
 // De más reciente a más antiguo.
 export const trayectoria: Hito[] = [
-  {
-    tipo: "Siguiente paso",
-    periodo: "Ahora",
-    titulo: "FCT (prácticas finales de DAM)",
-    lugar: "Busco empresa en Madrid o en remoto",
-    puntos: [
-      "Formación académica superada; la FCT está pendiente.",
-      "Puedo empezar en cuanto una empresa me ofrezca plaza.",
-    ],
-  },
   {
     tipo: "Experiencia",
     periodo: "may. 2025 – jun. 2025",
@@ -34,6 +24,7 @@ export const trayectoria: Hito[] = [
     titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
     lugar: "IES María Moliner (Segovia, a distancia) · primer curso en el IES Lázaro Cárdenas",
     puntos: [
+      "Formación académica superada.",
       "Programación (Java y programación orientada a objetos: clases, herencia, polimorfismo), Bases de datos y Acceso a datos.",
       "Lenguajes de marcas y sistemas de gestión de información (HTML, CSS, XML, XSD) y Desarrollo de interfaces.",
       "Programación multimedia y de dispositivos móviles, Programación de servicios y procesos, Entornos de desarrollo, Sistemas informáticos, Sistemas de gestión empresarial e Inglés profesional para informática.",

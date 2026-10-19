@@ -6,7 +6,6 @@ import { trayectoria } from "@/data/trayectoria";
 const color: Record<string, string> = {
   Formación: "text-sky-300 border-sky-300/30 bg-sky-300/5",
   Experiencia: "text-acento border-acento/30 bg-acento/5",
-  "Siguiente paso": "text-amber-300 border-amber-300/30 bg-amber-300/5",
 };
 
 export default function Trayectoria() {

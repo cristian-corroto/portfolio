@@ -16,7 +16,7 @@ export default function Portada() {
           <PalabraRotatoria palabras={["Java", "desarrollo web", "IA aplicada"]} />
         </p>
         <p className="mt-4 max-w-xl text-suave">
-          Técnico Superior en DAM en Madrid. Desarrollo de software, desarrollo web e IA aplicada.
+          Formación superada en DAM (Desarrollo de Aplicaciones Multiplataforma). Madrid. Desarrollo de software, desarrollo web e IA aplicada.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <a

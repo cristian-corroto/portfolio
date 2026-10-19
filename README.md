@@ -1,34 +1,38 @@
 # Portfolio de Cristian Corroto
 
-**Web publicada: <https://cristian-corroto.netlify.app>**
+**Verlo en directo: <https://cristian-corroto.netlify.app>**
 
-Mi portfolio personal: quién soy, mis proyectos y cómo trabajo. Soy desarrollador junior (Técnico Superior en DAM) en Madrid y me dedico al desarrollo de software, el desarrollo web y la IA aplicada.
+Hola, soy Cristian. He estudiado Desarrollo de Aplicaciones Multiplataforma (DAM) y me dedico al desarrollo de software, al desarrollo web y a la IA aplicada. Esta es la web donde cuento qué he hecho y cómo trabajo.
 
-> **Sobre el desarrollo:** esta web está hecha con apoyo de IA. Yo defino lo que necesita, pruebo el resultado y reviso lo que genera la herramienta. El método está explicado en la propia web.
+## Una cosa importante: programo con ayuda de IA
 
-## Tecnologías
+Lo digo sin rodeos. Esta web, igual que mis otros proyectos, está hecha con herramientas de IA. Yo decido qué hay que construir, lo pruebo y reviso el resultado, y la IA escribe buena parte del código, sobre todo en tecnologías que no estudié. En la propia web explico mi método, y en cada proyecto cuento qué hizo la IA y qué hice yo.
 
-Next.js (exportación estática) · React · TypeScript · Tailwind CSS · Framer Motion · fuente Geist
+## Qué vas a encontrar
 
-## Qué incluye
+- **Mis proyectos**, cada uno con su propia página: qué quería conseguir, cómo lo hice, hasta dónde llega y qué límites tiene.
+- **Cómo trabajo con IA**, explicado en cuatro pasos.
+- **Mi formación y mi experiencia**, en una línea de tiempo.
+- **Las tecnologías que uso**, agrupadas según cómo las he aprendido.
+- **Un correo** para escribirme.
 
-- Portada animada con mi nombre y mis tres áreas.
-- Proyectos, cada uno con su página de detalle: objetivo, cómo lo hice, qué hizo la IA, estado y límites.
-- Línea de tiempo de formación y experiencia, y aptitudes.
-- Diseño adaptado a móvil, tableta y ordenador.
+La web se ve bien en móvil, tableta y ordenador.
 
-## Cómo ejecutarlo
+## Cómo está hecha
 
-Requiere Node.js 22 o superior.
+Con Next.js (React), TypeScript y Tailwind CSS, y Framer Motion para las animaciones. Es una web estática, sin servidor propio, publicada en Netlify.
+
+## Si quieres ejecutarla en tu ordenador
+
+Necesitas Node.js 22 o superior.
 
 ```bash
 npm install
-npm run dev      # desarrollo en http://127.0.0.1:3000
-npm run build    # genera la web estática en /out
+npm run dev
 ```
 
-Los textos de proyectos, formación, aptitudes y contacto están en la carpeta `data/`.
+Después abre <http://127.0.0.1:3000>. Los textos de proyectos, formación y aptitudes están en la carpeta `data/`: si quieres cambiar algo, es el sitio más fácil.
 
-## Autor
+## Contacto
 
-Cristian Corroto · [GitHub](https://github.com/cristian-corroto)
+Escríbeme a cristiancorroto@gmail.com o encuéntrame en [GitHub](https://github.com/cristian-corroto).
