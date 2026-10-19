@@ -32,6 +32,8 @@ export default function Proyectos() {
                   <img
                     src={p.imagen}
                     alt={`Captura de ${p.titulo}`}
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
                   />
                 ) : (
@@ -44,7 +46,21 @@ export default function Proyectos() {
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <h3 className="text-xl font-semibold">{p.titulo}</h3>
+                <div className="flex items-center gap-3">
+                  {p.icono && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={p.icono}
+                      alt=""
+                      width={40}
+                      height={40}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-10 w-10 rounded-xl bg-white object-contain"
+                    />
+                  )}
+                  <h3 className="text-xl font-semibold">{p.titulo}</h3>
+                </div>
                 <p className="mt-2 flex-1 text-sm text-suave">{p.resumen}</p>
                 <div className="mt-4 flex flex-wrap items-center justify-between gap-2 text-xs">
                   <span className="rounded-full bg-white/5 px-2.5 py-1 text-suave">{p.estadoCorto}</span>

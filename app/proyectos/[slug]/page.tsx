@@ -30,7 +30,13 @@ export default async function PaginaProyecto({ params }: Props) {
         </Link>
 
         <p className="mt-8 font-mono text-sm text-acento">{p.tipo}</p>
-        <h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">{p.titulo}</h1>
+        <div className="mt-2 flex items-center gap-4">
+          {p.icono && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={p.icono} alt="" width={56} height={56} className="h-14 w-14 rounded-2xl bg-white object-contain" />
+          )}
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{p.titulo}</h1>
+        </div>
         <p className="mt-3 text-suave">{p.fecha}</p>
 
         {p.imagen && (
@@ -40,7 +46,7 @@ export default async function PaginaProyecto({ params }: Props) {
             }`}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={p.imagen} alt={`Captura de ${p.titulo}`} className="w-full" />
+            <img src={p.imagen} alt={`Captura de ${p.titulo}`} className="w-full" decoding="async" />
           </div>
         )}
 
