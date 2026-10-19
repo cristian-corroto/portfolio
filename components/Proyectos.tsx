@@ -26,12 +26,12 @@ export default function Proyectos() {
               href={`/proyectos/${p.slug}/`}
               className="group flex h-full flex-col overflow-hidden rounded-tarjeta border border-borde bg-tarjeta transition duration-300 hover:-translate-y-1 hover:border-acento/60 hover:shadow-[0_0_40px_-12px] hover:shadow-acento/40"
             >
-              <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
+              <div className="relative aspect-video overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
                 {p.imagen ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={p.imagen}
-                    alt={`Captura de ${p.titulo}`}
+                    alt={p.pieImagen ? `Portada de ${p.titulo}` : `Captura de ${p.titulo}`}
                     loading="lazy"
                     decoding="async"
                     className="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"

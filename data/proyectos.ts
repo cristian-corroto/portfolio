@@ -5,6 +5,7 @@ export type Proyecto = {
   fecha: string;
   resumen: string;
   imagen?: string;
+  pieImagen?: string;
   icono?: string;
   estado: string;
   estadoCorto: string;
@@ -24,7 +25,8 @@ export const proyectos: Proyecto[] = [
     fecha: "Proyecto final de DAM · jun. 2026",
     resumen:
       "App Android que muestra en un mapa de Madrid el nivel de riesgo de una zona según la hora y el día.",
-    imagen: "/proyectos/saferoute-app.webp",
+    imagen: "/proyectos/saferoute-portada.webp",
+    pieImagen: "Portada de presentación del proyecto.",
     icono: "/proyectos/saferoute-icono.webp",
     estado: "Funcional · APK descargable",
     estadoCorto: "Funcional",

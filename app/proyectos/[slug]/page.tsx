@@ -40,14 +40,18 @@ export default async function PaginaProyecto({ params }: Props) {
         <p className="mt-3 text-suave">{p.fecha}</p>
 
         {p.imagen && (
-          <div
-            className={`mt-8 overflow-hidden rounded-tarjeta border border-borde ${
-              p.imagen.includes("-app") ? "mx-auto max-w-md" : ""
-            }`}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={p.imagen} alt={`Captura de ${p.titulo}`} className="w-full" decoding="async" />
-          </div>
+          <figure className="mt-8">
+            <div className="overflow-hidden rounded-tarjeta border border-borde">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={p.imagen}
+                alt={p.pieImagen ? `Portada de ${p.titulo}` : `Captura de ${p.titulo}`}
+                className="w-full"
+                decoding="async"
+              />
+            </div>
+            {p.pieImagen && <figcaption className="mt-2 text-xs text-suave">{p.pieImagen}</figcaption>}
+          </figure>
         )}
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
