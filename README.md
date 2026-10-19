@@ -10,7 +10,7 @@ Next.js (exportación estática) · React · TypeScript · Tailwind CSS · Frame
 
 ## Qué incluye
 
-- Portada animada y sección «Sobre mí».
+- Portada animada con mi nombre, lo que busco y mis tres áreas.
 - Proyectos, cada uno con su página de detalle: objetivo, cómo lo hice, qué hizo la IA, estado y límites.
 - Línea de tiempo de formación y experiencia, y aptitudes.
 - Menú adaptado a móvil, modo oscuro, vista previa al compartir y página 404.

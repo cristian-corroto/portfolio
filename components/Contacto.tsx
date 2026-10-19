@@ -6,7 +6,17 @@ import { contacto } from "@/data/contacto";
 export default function Contacto() {
   return (
     <section id="contacto" className="mx-auto max-w-4xl px-4 py-24 text-center">
-      <p className="font-mono text-sm text-acento">Contacto</p>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/foto.webp"
+        alt="Cristian Corroto"
+        width={96}
+        height={96}
+        loading="lazy"
+        decoding="async"
+        className="mx-auto h-24 w-24 rounded-full border border-borde object-cover object-top"
+      />
+      <p className="mt-5 font-mono text-sm text-acento">Contacto</p>
       <motion.h2
         className="mt-3 text-3xl font-bold tracking-tight sm:text-5xl"
         initial={{ opacity: 0, y: 20 }}
