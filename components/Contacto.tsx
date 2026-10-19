@@ -17,8 +17,7 @@ export default function Contacto() {
         ¿Hablamos?
       </motion.h2>
       <p className="mx-auto mt-4 max-w-xl text-suave">
-        Busco prácticas (FCT) o un puesto junior en desarrollo de software, desarrollo web o IA aplicada. Estoy en
-        Madrid y trabajo en remoto o híbrido.
+        Si quieres hablar de un proyecto, de una colaboración o de una oportunidad, escríbeme. Estoy en Madrid y trabajo en remoto o híbrido.
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-3">

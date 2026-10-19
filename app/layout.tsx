@@ -9,7 +9,7 @@ const urlSitio = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 const titulo = "Cristian Corroto · Desarrollador junior";
 const descripcion =
-  "Portfolio de Cristian Corroto: desarrollador junior (DAM) en Madrid. Java, desarrollo web y desarrollo asistido por IA. Busco prácticas (FCT) o un puesto junior.";
+  "Portfolio de Cristian Corroto: desarrollador junior (DAM) en Madrid. Java, desarrollo web y desarrollo asistido por IA.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(urlSitio),

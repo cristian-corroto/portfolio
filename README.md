@@ -2,7 +2,7 @@
 
 **Web publicada: <https://cristian-corroto.netlify.app>**
 
-Mi portfolio personal: quién soy, mis proyectos y cómo trabajo. Soy desarrollador junior (Técnico Superior en DAM) en Madrid y busco prácticas (FCT) o un puesto junior en desarrollo de software, desarrollo web o IA aplicada.
+Mi portfolio personal: quién soy, mis proyectos y cómo trabajo. Soy desarrollador junior (Técnico Superior en DAM) en Madrid y me dedico al desarrollo de software, el desarrollo web y la IA aplicada.
 
 > **Sobre el desarrollo:** esta web está hecha con apoyo de IA. Yo defino lo que necesita, pruebo el resultado y reviso lo que genera la herramienta. El método está explicado en la propia web.
 
@@ -12,7 +12,7 @@ Next.js (exportación estática) · React · TypeScript · Tailwind CSS · Frame
 
 ## Qué incluye
 
-- Portada animada con mi nombre, lo que busco y mis tres áreas.
+- Portada animada con mi nombre y mis tres áreas.
 - Proyectos, cada uno con su página de detalle: objetivo, cómo lo hice, qué hizo la IA, estado y límites.
 - Línea de tiempo de formación y experiencia, y aptitudes.
 - Diseño adaptado a móvil, tableta y ordenador.
