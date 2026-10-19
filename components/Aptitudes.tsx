@@ -48,7 +48,7 @@ export default function Aptitudes() {
       </div>
 
       <p className="mt-6 text-sm text-suave">
-        Idiomas: español nativo, inglés básico (inglés técnico cursado en DAM). Permiso de conducir B.
+        Idiomas: español nativo, inglés básico (inglés técnico cursado en DAM).
       </p>
     </section>
   );
