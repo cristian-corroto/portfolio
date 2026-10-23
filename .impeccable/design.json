@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T21:19:20.938Z",
+  "title": "Design System: Cristian Corroto · Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "plano": {
+        "role": "neutral",
+        "displayName": "Carbono de plano",
+        "canonical": "oklch(13.5% 0.009 272.5)",
+        "tonalRamp": [
+          "oklch(15% 0.009 272.5)",
+          "oklch(25% 0.009 272.5)",
+          "oklch(35% 0.009 272.5)",
+          "oklch(45% 0.009 272.5)",
+          "oklch(55% 0.009 272.5)",
+          "oklch(65% 0.009 272.5)",
+          "oklch(80% 0.009 272.5)",
+          "oklch(95% 0.009 272.5)"
+        ]
+      },
+      "plano-2": {
+        "role": "neutral",
+        "displayName": "Carbono claro",
+        "canonical": "oklch(19.7% 0.019 270.3)",
+        "tonalRamp": [
+          "oklch(15% 0.019 270.3)",
+          "oklch(25% 0.019 270.3)",
+          "oklch(35% 0.019 270.3)",
+          "oklch(45% 0.019 270.3)",
+          "oklch(55% 0.019 270.3)",
+          "oklch(65% 0.019 270.3)",
+          "oklch(80% 0.019 270.3)",
+          "oklch(95% 0.019 270.3)"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "oklch(95.8% 0.009 264.5)",
+        "tonalRamp": [
+          "oklch(15% 0.009 264.5)",
+          "oklch(25% 0.009 264.5)",
+          "oklch(35% 0.009 264.5)",
+          "oklch(45% 0.009 264.5)",
+          "oklch(55% 0.009 264.5)",
+          "oklch(65% 0.009 264.5)",
+          "oklch(80% 0.009 264.5)",
+          "oklch(95% 0.009 264.5)"
+        ]
+      },
+      "suave": {
+        "role": "neutral",
+        "displayName": "Tinta suave",
+        "canonical": "oklch(71.5% 0.032 267.1)",
+        "tonalRamp": [
+          "oklch(15% 0.032 267.1)",
+          "oklch(25% 0.032 267.1)",
+          "oklch(35% 0.032 267.1)",
+          "oklch(45% 0.032 267.1)",
+          "oklch(55% 0.032 267.1)",
+          "oklch(65% 0.032 267.1)",
+          "oklch(80% 0.032 267.1)",
+          "oklch(95% 0.030 267.1)"
+        ]
+      },
+      "hilo": {
+        "role": "neutral",
+        "displayName": "Hilo",
+        "canonical": "rgb(255 255 255 / 0.1)",
+        "tonalRamp": [
+          "rgb(255 255 255 / 0.04)",
+          "rgb(255 255 255 / 0.06)",
+          "rgb(255 255 255 / 0.1)",
+          "rgb(255 255 255 / 0.15)",
+          "rgb(255 255 255 / 0.25)",
+          "rgb(255 255 255 / 0.4)",
+          "rgb(255 255 255 / 0.6)",
+          "rgb(255 255 255 / 0.85)"
+        ]
+      },
+      "yo": {
+        "role": "primary",
+        "displayName": "Rojo neón Yo",
+        "canonical": "oklch(65.9% 0.228 23.0)",
+        "tonalRamp": [
+          "oklch(15% 0.060 23.0)",
+          "oklch(25% 0.100 23.0)",
+          "oklch(35% 0.140 23.0)",
+          "oklch(45% 0.228 23.0)",
+          "oklch(55% 0.228 23.0)",
+          "oklch(65% 0.228 23.0)",
+          "oklch(80% 0.228 23.0)",
+          "oklch(95% 0.030 23.0)"
+        ]
+      },
+      "ia": {
+        "role": "primary",
+        "displayName": "Azul neón IA",
+        "canonical": "oklch(73.2% 0.156 239.8)",
+        "tonalRamp": [
+          "oklch(15% 0.060 239.8)",
+          "oklch(25% 0.100 239.8)",
+          "oklch(35% 0.140 239.8)",
+          "oklch(45% 0.156 239.8)",
+          "oklch(55% 0.156 239.8)",
+          "oklch(65% 0.156 239.8)",
+          "oklch(80% 0.156 239.8)",
+          "oklch(95% 0.030 239.8)"
+        ]
+      },
+      "formacion": {
+        "role": "secondary",
+        "displayName": "Amarillo neón Formación",
+        "canonical": "oklch(87.9% 0.162 90.9)",
+        "tonalRamp": [
+          "oklch(15% 0.060 90.9)",
+          "oklch(25% 0.100 90.9)",
+          "oklch(35% 0.140 90.9)",
+          "oklch(45% 0.162 90.9)",
+          "oklch(55% 0.162 90.9)",
+          "oklch(65% 0.162 90.9)",
+          "oklch(80% 0.162 90.9)",
+          "oklch(95% 0.030 90.9)"
+        ]
+      },
+      "experiencia": {
+        "role": "secondary",
+        "displayName": "Verde neón Experiencia",
+        "canonical": "oklch(79.3% 0.180 154.0)",
+        "tonalRamp": [
+          "oklch(15% 0.060 154.0)",
+          "oklch(25% 0.100 154.0)",
+          "oklch(35% 0.140 154.0)",
+          "oklch(45% 0.180 154.0)",
+          "oklch(55% 0.180 154.0)",
+          "oklch(65% 0.180 154.0)",
+          "oklch(80% 0.180 154.0)",
+          "oklch(95% 0.030 154.0)"
+        ]
+      },
+      "rotulo": {
+        "role": "tertiary",
+        "displayName": "Azul rótulo",
+        "canonical": "oklch(21.4% 0.059 267.1)",
+        "tonalRamp": [
+          "oklch(15% 0.059 267.1)",
+          "oklch(25% 0.059 267.1)",
+          "oklch(35% 0.059 267.1)",
+          "oklch(45% 0.059 267.1)",
+          "oklch(55% 0.059 267.1)",
+          "oklch(65% 0.059 267.1)",
+          "oklch(80% 0.059 267.1)",
+          "oklch(95% 0.030 267.1)"
+        ]
+      },
+      "rotulo-suave": {
+        "role": "tertiary",
+        "displayName": "Lavanda de rótulo",
+        "canonical": "oklch(82.3% 0.049 271.2)",
+        "tonalRamp": [
+          "oklch(15% 0.049 271.2)",
+          "oklch(25% 0.049 271.2)",
+          "oklch(35% 0.049 271.2)",
+          "oklch(45% 0.049 271.2)",
+          "oklch(55% 0.049 271.2)",
+          "oklch(65% 0.049 271.2)",
+          "oklch(80% 0.049 271.2)",
+          "oklch(95% 0.030 271.2)"
+        ]
+      },
+      "anden": {
+        "role": "neutral",
+        "displayName": "Andén",
+        "canonical": "oklch(10.7% 0.011 266.5)",
+        "tonalRamp": [
+          "oklch(15% 0.011 266.5)",
+          "oklch(25% 0.011 266.5)",
+          "oklch(35% 0.011 266.5)",
+          "oklch(45% 0.011 266.5)",
+          "oklch(55% 0.011 266.5)",
+          "oklch(65% 0.011 266.5)",
+          "oklch(80% 0.011 266.5)",
+          "oklch(95% 0.011 266.5)"
+        ]
+      },
+      "anden-texto": {
+        "role": "neutral",
+        "displayName": "Texto de andén",
+        "canonical": "oklch(94.3% 0.011 269.5)",
+        "tonalRamp": [
+          "oklch(15% 0.011 269.5)",
+          "oklch(25% 0.011 269.5)",
+          "oklch(35% 0.011 269.5)",
+          "oklch(45% 0.011 269.5)",
+          "oklch(55% 0.011 269.5)",
+          "oklch(65% 0.011 269.5)",
+          "oklch(80% 0.011 269.5)",
+          "oklch(95% 0.011 269.5)"
+        ]
+      },
+      "anden-suave": {
+        "role": "neutral",
+        "displayName": "Andén suave",
+        "canonical": "oklch(74.0% 0.033 271.6)",
+        "tonalRamp": [
+          "oklch(15% 0.033 271.6)",
+          "oklch(25% 0.033 271.6)",
+          "oklch(35% 0.033 271.6)",
+          "oklch(45% 0.033 271.6)",
+          "oklch(55% 0.033 271.6)",
+          "oklch(65% 0.033 271.6)",
+          "oklch(80% 0.033 271.6)",
+          "oklch(95% 0.030 271.6)"
+        ]
+      },
+      "ia-rotulo": {
+        "role": "tertiary",
+        "displayName": "Cian de rótulo",
+        "canonical": "oklch(83.7% 0.092 237.7)",
+        "tonalRamp": [
+          "oklch(15% 0.060 237.7)",
+          "oklch(25% 0.092 237.7)",
+          "oklch(35% 0.092 237.7)",
+          "oklch(45% 0.092 237.7)",
+          "oklch(55% 0.092 237.7)",
+          "oklch(65% 0.092 237.7)",
+          "oklch(80% 0.092 237.7)",
+          "oklch(95% 0.030 237.7)"
+        ],
+        "note": "Literal en el código (#8fd3ff), sin token en @theme."
+      },
+      "texto-neon": {
+        "role": "neutral",
+        "displayName": "Negro de neón",
+        "canonical": "oklch(0.0% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(55% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(80% 0 0)",
+          "oklch(95% 0 0)"
+        ],
+        "note": "Literal #000: texto sobre relleno neón o claro."
+      },
+      "blanco": {
+        "role": "neutral",
+        "displayName": "Blanco",
+        "canonical": "oklch(100.0% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(55% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(80% 0 0)",
+          "oklch(95% 0 0)"
+        ],
+        "note": "Parada superior del degradado metálico del nombre; tope de contacto, borde de trenes."
+      },
+      "metal-medio": {
+        "role": "neutral",
+        "displayName": "Metal medio",
+        "canonical": "oklch(92.7% 0.012 264.5)",
+        "tonalRamp": [
+          "oklch(15% 0.012 264.5)",
+          "oklch(25% 0.012 264.5)",
+          "oklch(35% 0.012 264.5)",
+          "oklch(45% 0.012 264.5)",
+          "oklch(55% 0.012 264.5)",
+          "oklch(65% 0.012 264.5)",
+          "oklch(80% 0.012 264.5)",
+          "oklch(95% 0.012 264.5)"
+        ],
+        "note": "Parada al 55 % del degradado metálico del nombre."
+      },
+      "metal-bajo": {
+        "role": "neutral",
+        "displayName": "Metal bajo",
+        "canonical": "oklch(66.3% 0.033 267.1)",
+        "tonalRamp": [
+          "oklch(15% 0.033 267.1)",
+          "oklch(25% 0.033 267.1)",
+          "oklch(35% 0.033 267.1)",
+          "oklch(45% 0.033 267.1)",
+          "oklch(55% 0.033 267.1)",
+          "oklch(65% 0.033 267.1)",
+          "oklch(80% 0.033 267.1)",
+          "oklch(95% 0.030 267.1)"
+        ],
+        "note": "Parada al 100 % del degradado metálico del nombre."
+      },
+      "boton-claro-base": {
+        "role": "neutral",
+        "displayName": "Base del botón claro",
+        "canonical": "oklch(80.3% 0.020 263.0)",
+        "tonalRamp": [
+          "oklch(15% 0.020 263.0)",
+          "oklch(25% 0.020 263.0)",
+          "oklch(35% 0.020 263.0)",
+          "oklch(45% 0.020 263.0)",
+          "oklch(55% 0.020 263.0)",
+          "oklch(65% 0.020 263.0)",
+          "oklch(80% 0.020 263.0)",
+          "oklch(95% 0.020 263.0)"
+        ],
+        "note": "Final del degradado vertical de «Ver proyectos»."
+      },
+      "fondo-cartel": {
+        "role": "neutral",
+        "displayName": "Fondo de cartel",
+        "canonical": "oklch(12.9% 0.015 266.4)",
+        "tonalRamp": [
+          "oklch(15% 0.015 266.4)",
+          "oklch(25% 0.015 266.4)",
+          "oklch(35% 0.015 266.4)",
+          "oklch(45% 0.015 266.4)",
+          "oklch(55% 0.015 266.4)",
+          "oklch(65% 0.015 266.4)",
+          "oklch(80% 0.015 266.4)",
+          "oklch(95% 0.015 266.4)"
+        ],
+        "note": "Literal en Proyectos.tsx."
+      },
+      "carril": {
+        "role": "neutral",
+        "displayName": "Carril",
+        "canonical": "oklch(30.6% 0.026 269.5)",
+        "tonalRamp": [
+          "oklch(15% 0.026 269.5)",
+          "oklch(25% 0.026 269.5)",
+          "oklch(35% 0.026 269.5)",
+          "oklch(45% 0.026 269.5)",
+          "oklch(55% 0.026 269.5)",
+          "oklch(65% 0.026 269.5)",
+          "oklch(80% 0.026 269.5)",
+          "oklch(95% 0.026 269.5)"
+        ],
+        "note": "scrollbar-color del html."
+      },
+      "velo-cristal": {
+        "role": "neutral",
+        "displayName": "Velo de cristal",
+        "canonical": "rgb(0 0 0 / 0.45)",
+        "tonalRamp": [
+          "rgb(0 0 0 / 0.04)",
+          "rgb(0 0 0 / 0.06)",
+          "rgb(0 0 0 / 0.1)",
+          "rgb(0 0 0 / 0.15)",
+          "rgb(0 0 0 / 0.25)",
+          "rgb(0 0 0 / 0.4)",
+          "rgb(0 0 0 / 0.6)",
+          "rgb(0 0 0 / 0.85)"
+        ]
+      },
+      "borde-cristal": {
+        "role": "neutral",
+        "displayName": "Borde de cristal",
+        "canonical": "rgb(255 255 255 / 0.15)",
+        "tonalRamp": [
+          "rgb(255 255 255 / 0.04)",
+          "rgb(255 255 255 / 0.06)",
+          "rgb(255 255 255 / 0.1)",
+          "rgb(255 255 255 / 0.15)",
+          "rgb(255 255 255 / 0.25)",
+          "rgb(255 255 255 / 0.4)",
+          "rgb(255 255 255 / 0.6)",
+          "rgb(255 255 255 / 0.85)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "nombre": {
+        "displayName": "Nombre de neón",
+        "purpose": "Solo el nombre de la portada. 168 unidades en un SVG de viewBox 932 de ancho que escala hasta 56rem; contorno azul IA + relleno metálico."
+      },
+      "display": {
+        "displayName": "Rótulo grande",
+        "purpose": "«¿Hablamos?» y la página de error. Clase .rotulo (font-stretch 68 %)."
+      },
+      "headline": {
+        "displayName": "Rótulo de sección",
+        "purpose": "Títulos de sección y de ficha; la misma voz a menor tamaño en el letrero «Proyectos», títulos de cartel, pasos del método y menú móvil."
+      },
+      "subtitle": {
+        "displayName": "Subtítulo de portada",
+        "purpose": "La frase «Desarrollo …» con la pastilla de neón. Clase .rotulo-medio."
+      },
+      "title": {
+        "displayName": "Rótulo medio",
+        "purpose": "Subtítulos, nombres de estación en el plano y nombre en la cabecera. Clase .rotulo-medio (font-stretch 80 %)."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Texto corrido en tinta suave, 52–65ch, cifras tabulares."
+      },
+      "body-lead": {
+        "displayName": "Entradilla",
+        "purpose": "Párrafo bajo un título de sección; 1.25rem en la portada desde sm."
+      },
+      "chip": {
+        "displayName": "Ficha",
+        "purpose": "Fichas de Aptitudes (0.95rem); destacadas en 600."
+      },
+      "label": {
+        "displayName": "Versalitas",
+        "purpose": "Datos de panel a 12 px: estado, tipo, vía. Clase .versalitas (font-stretch 90 %). Nunca como antetítulo."
+      },
+      "label-sm": {
+        "displayName": "Versalitas pequeñas",
+        "purpose": "Tipo de proyecto (11 px) dentro del panel de cristal de un cartel, en cian de rótulo."
+      },
+      "label-xs": {
+        "displayName": "Versalitas mínimas",
+        "purpose": "«Próxima estación» (10 px) en la cabecera."
+      }
+    },
+    "shadows": [
+      {
+        "name": "halo-yo",
+        "value": "filter: drop-shadow(0 0 6px rgb(255 61 74 / 0.75)) drop-shadow(0 0 18px rgb(255 61 74 / 0.35))",
+        "purpose": "Clase .neon-yo. Trazos Yo, tren Yo, barra roja de sección, signo de leyenda."
+      },
+      {
+        "name": "halo-ia",
+        "value": "filter: drop-shadow(0 0 6px rgb(42 179 255 / 0.75)) drop-shadow(0 0 18px rgb(42 179 255 / 0.35))",
+        "purpose": "Clase .neon-ia. Trazos IA, tren IA, barra azul de sección, signo de leyenda."
+      },
+      {
+        "name": "halo-blanco",
+        "value": "filter: drop-shadow(0 0 5px rgb(255 255 255 / 0.55))",
+        "purpose": "Clase .neon-blanco. Trayecto de «Cómo trabajo» y tope de contacto."
+      },
+      {
+        "name": "aura-nombre",
+        "value": "filter: drop-shadow(0 0 18px rgb(42 179 255 / 0.18))",
+        "purpose": "Clase .nombre-neon. El nombre de la portada."
+      },
+      {
+        "name": "brillo-pastilla",
+        "value": "0 0 28px rgb(42 179 255 / 0.45)",
+        "purpose": "Pastilla de la palabra rotatoria."
+      },
+      {
+        "name": "brillo-boton-claro",
+        "value": "0 0 0 1px rgb(255 255 255 / 0.4), 0 10px 30px -10px rgb(42 179 255 / 0.6)",
+        "purpose": "Botón «Ver proyectos»; el correo usa solo la segunda capa."
+      },
+      {
+        "name": "brillo-yo",
+        "value": "0 0 24px rgb(255 61 74 / 0.45)",
+        "purpose": "Primer enlace externo de una ficha."
+      },
+      {
+        "name": "estacion-pasada",
+        "value": "0 0 10px rgb(255 61 74 / 0.7)",
+        "purpose": "Anillo de estación pasada en la cabecera."
+      },
+      {
+        "name": "tren-cabecera",
+        "value": "0 0 14px rgb(255 61 74 / 0.9)",
+        "purpose": "Tren de la cabecera."
+      },
+      {
+        "name": "lineas-trayectoria",
+        "value": "0 0 12px rgb(255 210 63 / 0.6) | 0 0 12px rgb(61 220 132 / 0.6)",
+        "purpose": "Relleno de las líneas Formación y Experiencia."
+      },
+      {
+        "name": "franja-anden",
+        "value": "0 0 24px rgb(255 61 74 / 0.45), 0 0 24px rgb(42 179 255 / 0.45)",
+        "purpose": "Clase .franja-anden: franja de 12 px roja/azul en lo alto del andén."
+      },
+      {
+        "name": "captura-colgada",
+        "value": "0 30px 60px -20px rgb(0 0 0 / 0.8)",
+        "purpose": "Capturas de pantalla sobre el andén, en cartel y en ficha."
+      },
+      {
+        "name": "panel-cristal",
+        "value": "0 20px 40px -16px rgb(0 0 0 / 0.8)",
+        "purpose": "Panel de cristal que flota sobre la imagen del cartel."
+      },
+      {
+        "name": "letrero-seccion",
+        "value": "0 10px 30px -12px rgb(0 0 0 / 0.8)",
+        "purpose": "Letrero «Proyectos» sobre el andén."
+      },
+      {
+        "name": "luz-fondo",
+        "value": "filter: blur(110px); opacity: 0.32",
+        "purpose": "Clase .luz: manchas de rojo Yo y azul IA detrás de la portada y del contacto."
+      },
+      {
+        "name": "cristal",
+        "value": "background: rgb(0 0 0 / 0.45); backdrop-filter: blur(40px); border: 1px solid rgb(255 255 255 / 0.15)",
+        "purpose": "Paneles que se leen sobre una imagen."
+      },
+      {
+        "name": "foco",
+        "value": "outline: 2px solid var(--color-ia); outline-offset: 3px; border-radius: 6px",
+        "purpose": "Anillo de foco global para teclado."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-llegada",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Token --ease-llegada. Entradas, estaciones que se fijan, despliegues, hovers de cartel, barrido del metal, letras de la pastilla."
+      },
+      {
+        "name": "ease-trazo",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Dibujo de líneas, contorno del nombre y anotaciones a mano."
+      },
+      {
+        "name": "nombre-trazo",
+        "value": "1.1s + 55ms por letra",
+        "purpose": "Contorno azul IA del nombre, letra a letra (stroke-dashoffset 720 → 0)."
+      },
+      {
+        "name": "nombre-relleno",
+        "value": "0.9s, retraso 1.15s",
+        "purpose": "El relleno metálico barre de izquierda a derecha (clip-path)."
+      },
+      {
+        "name": "portada-texto",
+        "value": "0.6s, retrasos 1.5s y 1.7s; acciones 2.2s",
+        "purpose": "Subtítulo, entradilla y acciones de la portada, tras el nombre."
+      },
+      {
+        "name": "anotacion",
+        "value": "0.8s, retrasos 2.3s y 2.7s",
+        "purpose": "Subrayado y caja a mano alzada sobre la entradilla."
+      },
+      {
+        "name": "palabra-rotatoria",
+        "value": "cada 2.6s; 0.28s por letra; 30ms (entra) / 15ms (sale) entre letras",
+        "purpose": "Pastilla de neón: las letras giran en X y entran desde abajo."
+      },
+      {
+        "name": "trazo-plano",
+        "value": "1.7s desde 1.3s",
+        "purpose": "Dibujo de cada línea del plano; la IA arranca 0,15 s después que Yo."
+      },
+      {
+        "name": "trazo-contacto",
+        "value": "1.4s",
+        "purpose": "Líneas de contacto que llegan al tope."
+      },
+      {
+        "name": "golpe-estacion",
+        "value": "0.5s, scale 0.3 → 1",
+        "purpose": "Estación de correspondencia que se fija al pasar la línea."
+      },
+      {
+        "name": "entrada-cartel",
+        "value": "0.9s, y 40px y brillo 0.2 → 1, 0.12s entre columnas",
+        "purpose": "Los carteles se encienden al entrar en pantalla."
+      },
+      {
+        "name": "entrada-columna",
+        "value": "0.7s clip-path izquierda → derecha, 0.12s entre columnas",
+        "purpose": "Columnas «Lo que hago yo / hace la IA / sé sin IA»."
+      },
+      {
+        "name": "color",
+        "value": "200ms",
+        "purpose": "Cambios de color y de posición de botones."
+      },
+      {
+        "name": "estructura",
+        "value": "300ms",
+        "purpose": "Despliegue del resumen del cartel, panel que sube, raya de «Ver proyecto», tren y anillos de la cabecera, estaciones de los esquemas."
+      },
+      {
+        "name": "imagen",
+        "value": "700–1000ms",
+        "purpose": "Escala del cartel y movimiento de su imagen en hover."
+      },
+      {
+        "name": "deriva",
+        "value": "18s ease-in-out infinite",
+        "purpose": "Bucle de las luces de fondo (translate 4 % / -6 %, scale 1.12)."
+      },
+      {
+        "name": "anillo",
+        "value": "2.6s linear infinite",
+        "purpose": "Anillo cónico alrededor del icono del paso alcanzado."
+      },
+      {
+        "name": "luz-borde",
+        "value": "3.2s linear infinite",
+        "purpose": "Luz cónica Yo→IA que recorre el borde del cartel en hover o foco; fija a 200deg con movimiento reducido."
+      },
+      {
+        "name": "aviso",
+        "value": "38ms por letra",
+        "purpose": "El panel «Próxima estación» escribe el destino letra a letra."
+      },
+      {
+        "name": "parada-tren",
+        "value": "0.6s",
+        "purpose": "Pausa del tren del plano en cada estación; recorrido único de 6 s (4,5 s en vertical)."
+      },
+      {
+        "name": "reducido",
+        "value": "MotionConfig reducedMotion=\"user\" + duration 0 + @media (prefers-reduced-motion: reduce)",
+        "purpose": "Todo aparece dibujado; trenes no se crean; luces, anillo y palabra rotatoria se detienen; la luz del borde queda fija; sin scroll suave."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "hover",
+        "value": "@media (hover: hover)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón claro",
+      "kind": "button",
+      "refersTo": "boton-claro",
+      "description": "Acción principal: píldora clara con relieve, texto negro y brillo azul; sube 2 px en hover.",
+      "html": "<div class=\"ds-suelo\"><a class=\"ds-boton-claro\" href=\"#\">Ver proyectos <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 2v11M3 8.5 8 13.5l5-5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div>",
+      "css": ".ds-suelo { background: var(--color-plano, #07080c); padding: 24px; font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-boton-claro { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 28px; border-radius: 9999px; background: linear-gradient(to bottom, #ffffff, #b8bfcc); color: #000; font-size: 14px; font-weight: 600; text-decoration: none; box-shadow: 0 0 0 1px rgb(255 255 255 / 0.4), 0 10px 30px -10px rgb(42 179 255 / 0.6); transition: transform 200ms; } .ds-boton-claro:hover { transform: translateY(-2px); } .ds-boton-claro:focus-visible { outline: 2px solid var(--color-ia, #2ab3ff); outline-offset: 3px; }"
+    },
+    {
+      "name": "Botón de cristal y contornos",
+      "kind": "button",
+      "refersTo": "boton-cristal",
+      "description": "Acciones secundarias sobre el carbono: cristal negro con borde blanco al 20 %, contorno blanco al 40 % y contorno de tinta que se rellena.",
+      "html": "<div class=\"ds-suelo\"><a class=\"ds-boton-cristal\" href=\"#\">Escribirme</a> <a class=\"ds-boton-contorno\" href=\"#\">GitHub</a> <button type=\"button\" class=\"ds-boton-tinta\">Ver asignaturas</button></div>",
+      "css": ".ds-suelo { display: flex; flex-wrap: wrap; gap: 12px; background: var(--color-plano, #07080c); padding: 24px; font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-boton-cristal, .ds-boton-contorno, .ds-boton-tinta { display: inline-flex; align-items: center; border-radius: 9999px; color: var(--color-tinta, #eef1f7); font: inherit; font-size: 14px; font-weight: 600; text-decoration: none; cursor: pointer; transition: border-color 200ms, background-color 200ms, color 200ms; } .ds-boton-cristal { min-height: 48px; padding: 0 28px; border: 1px solid rgb(255 255 255 / 0.2); background: rgb(0 0 0 / 0.4); backdrop-filter: blur(8px); } .ds-boton-cristal:hover { border-color: rgb(255 255 255 / 0.5); } .ds-boton-contorno { min-height: 56px; padding: 0 24px; border: 2px solid rgb(255 255 255 / 0.4); background: transparent; } .ds-boton-contorno:hover { border-color: #fff; } .ds-boton-tinta { min-height: 44px; padding: 0 16px; border: 2px solid var(--color-tinta, #eef1f7); background: transparent; } .ds-boton-tinta:hover { background: var(--color-tinta, #eef1f7); color: var(--color-plano, #07080c); } .ds-boton-cristal:focus-visible, .ds-boton-contorno:focus-visible, .ds-boton-tinta:focus-visible { outline: 2px solid var(--color-ia, #2ab3ff); outline-offset: 3px; }"
+    },
+    {
+      "name": "Pastilla de neón",
+      "kind": "chip",
+      "refersTo": "pastilla-neon",
+      "description": "Palabra en una pastilla azul IA con texto negro y brillo; sus letras giran al cambiar.",
+      "html": "<p class=\"ds-subtitulo\">Desarrollo <span class=\"ds-pastilla\"><span class=\"ds-letra\" style=\"animation-delay:0ms\">c</span><span class=\"ds-letra\" style=\"animation-delay:30ms\">o</span><span class=\"ds-letra\" style=\"animation-delay:60ms\">n</span><span class=\"ds-letra\" style=\"animation-delay:90ms\">&nbsp;</span><span class=\"ds-letra\" style=\"animation-delay:120ms\">I</span><span class=\"ds-letra\" style=\"animation-delay:150ms\">A</span></span></p>",
+      "css": ".ds-subtitulo { margin: 0; padding: 24px; background: var(--color-plano, #07080c); color: var(--color-tinta, #eef1f7); font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); font-size: 38px; font-weight: 700; font-stretch: 80%; text-align: center; } .ds-pastilla { display: inline-flex; overflow: hidden; vertical-align: middle; border-radius: 8px; background: var(--color-ia, #2ab3ff); padding: 2px 12px; color: #000; box-shadow: 0 0 28px rgb(42 179 255 / 0.45); } .ds-letra { display: inline-block; white-space: pre; animation: ds-volteo 280ms cubic-bezier(0.16, 1, 0.3, 1) both; } @keyframes ds-volteo { from { transform: translateY(110%) rotateX(-70deg); opacity: 0; } to { transform: none; opacity: 1; } } @media (prefers-reduced-motion: reduce) { .ds-letra { animation: none; } }"
+    },
+    {
+      "name": "Nombre de neón",
+      "kind": "custom",
+      "refersTo": "nombre",
+      "description": "El nombre de la portada: contorno azul IA trazado letra a letra y relleno metálico que barre después. Exclusivo de la portada.",
+      "html": "<div class=\"ds-portada\"><svg viewBox=\"-6 -6 932 192\" class=\"ds-nombre\" role=\"img\" aria-label=\"Cristian Corroto\"><defs><linearGradient id=\"ds-metal\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#ffffff\"/><stop offset=\"55%\" stop-color=\"#e3e7ef\"/><stop offset=\"100%\" stop-color=\"#8a93a8\"/></linearGradient></defs><text x=\"0\" y=\"150\" textLength=\"916\" lengthAdjust=\"spacing\" class=\"ds-nombre-trazo\" fill=\"none\" stroke=\"var(--color-ia, #2ab3ff)\" stroke-width=\"1.6\" stroke-linejoin=\"round\"><tspan style=\"animation-delay:0ms\">C</tspan><tspan style=\"animation-delay:55ms\">r</tspan><tspan style=\"animation-delay:110ms\">i</tspan><tspan style=\"animation-delay:165ms\">s</tspan><tspan style=\"animation-delay:220ms\">t</tspan><tspan style=\"animation-delay:275ms\">i</tspan><tspan style=\"animation-delay:330ms\">a</tspan><tspan style=\"animation-delay:385ms\">n</tspan><tspan style=\"animation-delay:440ms\">&#160;</tspan><tspan style=\"animation-delay:495ms\">C</tspan><tspan style=\"animation-delay:550ms\">o</tspan><tspan style=\"animation-delay:605ms\">r</tspan><tspan style=\"animation-delay:660ms\">r</tspan><tspan style=\"animation-delay:715ms\">o</tspan><tspan style=\"animation-delay:770ms\">t</tspan><tspan style=\"animation-delay:825ms\">o</tspan></text><text x=\"0\" y=\"150\" textLength=\"916\" lengthAdjust=\"spacing\" class=\"ds-nombre-relleno\" fill=\"url(#ds-metal)\">Cristian Corroto</text></svg></div>",
+      "css": ".ds-portada { padding: 32px 24px; background: var(--color-plano, #07080c); font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-nombre { display: block; width: 100%; max-width: 896px; height: auto; margin: 0 auto; overflow: visible; filter: drop-shadow(0 0 18px rgb(42 179 255 / 0.18)); } .ds-nombre text { font-size: 168px; font-weight: 800; font-stretch: 68%; letter-spacing: -0.01em; } .ds-nombre-trazo tspan { stroke-dasharray: 720; stroke-dashoffset: 720; animation: ds-trazar 1.1s cubic-bezier(0.65, 0, 0.35, 1) forwards; } @keyframes ds-trazar { to { stroke-dashoffset: 0; } } .ds-nombre-relleno { clip-path: inset(0 100% 0 0); animation: ds-barrer 0.9s cubic-bezier(0.16, 1, 0.3, 1) 1.15s forwards; } @keyframes ds-barrer { to { clip-path: inset(0 0 0 0); } } @media (prefers-reduced-motion: reduce) { .ds-nombre-trazo tspan { animation: none; stroke-dashoffset: 0; } .ds-nombre-relleno { animation: none; clip-path: none; } }"
+    },
+    {
+      "name": "Anotación a mano",
+      "kind": "custom",
+      "refersTo": "trazo-mano",
+      "description": "Subrayado ondulado o caja torcida que se dibuja sobre una frase, en el color de su línea.",
+      "html": "<p class=\"ds-entradilla\">Construyo apps y webs <span class=\"ds-marca-mano\">con IA<svg viewBox=\"0 0 60 12\" preserveAspectRatio=\"none\" class=\"ds-subrayado\" aria-hidden=\"true\"><path d=\"M2 8 C 12 4, 21 10, 31 7 S 50 5, 58 8\" pathLength=\"1\" fill=\"none\" stroke=\"var(--color-ia, #2ab3ff)\" stroke-width=\"3\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/></svg></span> y cuento <span class=\"ds-marca-mano ds-marca-mano--caja\"><span class=\"ds-tinta\">qué hizo ella y qué hice yo</span><svg viewBox=\"0 0 300 60\" preserveAspectRatio=\"none\" class=\"ds-caja\" aria-hidden=\"true\"><path d=\"M8 6 C 90 2, 210 4, 294 7 C 297 22, 296 40, 293 54 C 200 57, 100 56, 5 53 C 3 38, 4 20, 9 4\" pathLength=\"1\" fill=\"none\" stroke=\"var(--color-yo, #ff3d4a)\" stroke-width=\"2\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\" style=\"animation-delay:0.4s\"/></svg></span>.</p>",
+      "css": ".ds-entradilla { margin: 0; padding: 32px 24px; background: var(--color-plano, #07080c); color: var(--color-suave, #9aa3b8); font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); font-size: 20px; line-height: 1.625; text-align: center; } .ds-tinta { color: var(--color-tinta, #eef1f7); } .ds-marca-mano { position: relative; display: inline-block; white-space: nowrap; } .ds-marca-mano--caja { padding: 0 6px; } .ds-marca-mano svg { position: absolute; pointer-events: none; } .ds-subrayado { left: -4px; bottom: -10px; width: calc(100% + 8px); height: 14px; } .ds-caja { left: -4px; top: -4px; width: calc(100% + 8px); height: calc(100% + 8px); } .ds-marca-mano path { stroke-dasharray: 1; stroke-dashoffset: 1; animation: ds-mano 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards; } @keyframes ds-mano { to { stroke-dashoffset: 0; } } @media (prefers-reduced-motion: reduce) { .ds-marca-mano path { animation: none; stroke-dashoffset: 0; } }"
+    },
+    {
+      "name": "Título con barras",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Título de sección condensado con las dos líneas encendidas debajo (roja larga, azul corta).",
+      "html": "<div class=\"ds-suelo\"><h2 class=\"ds-titulo\">Trayectoria</h2><div class=\"ds-barras\" aria-hidden=\"true\"><span class=\"ds-barra ds-barra--yo\"></span><span class=\"ds-barra ds-barra--ia\"></span></div></div>",
+      "css": ".ds-suelo { background: var(--color-plano, #07080c); padding: 32px 24px; color: var(--color-tinta, #eef1f7); font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-titulo { margin: 0; font-size: 72px; font-weight: 800; font-stretch: 68%; line-height: 0.92; letter-spacing: -0.01em; } .ds-barras { display: flex; gap: 6px; margin-top: 20px; } .ds-barra { height: 6px; border-radius: 9999px; } .ds-barra--yo { width: 56px; background: var(--color-yo, #ff3d4a); filter: drop-shadow(0 0 6px rgb(255 61 74 / 0.75)) drop-shadow(0 0 18px rgb(255 61 74 / 0.35)); } .ds-barra--ia { width: 32px; background: var(--color-ia, #2ab3ff); filter: drop-shadow(0 0 6px rgb(42 179 255 / 0.75)) drop-shadow(0 0 18px rgb(42 179 255 / 0.35)); }"
+    },
+    {
+      "name": "Cartel de andén",
+      "kind": "card",
+      "refersTo": "cartel",
+      "description": "Proyecto como cartel retroiluminado sobre el andén, con panel de cristal negro y luz Yo→IA en el borde al pasar.",
+      "html": "<div class=\"ds-anden\"><div class=\"ds-franja\"></div><a class=\"ds-cartel\" href=\"#\"><span class=\"ds-cartel-fondo\"></span><span class=\"ds-cartel-panel\"><span class=\"ds-cartel-cab\"><span class=\"ds-cartel-titulo\">REDLINE/26</span><span class=\"ds-marca\"><span class=\"ds-marca-signo ds-marca-signo--obras\"></span>En desarrollo</span></span><span class=\"ds-cartel-banda\"><span class=\"ds-tipo\">Web animada</span> · 2026 · HTML, CSS, JavaScript</span><span class=\"ds-cartel-ver\">Ver proyecto <span class=\"ds-cartel-raya\"></span></span></span><span class=\"ds-cartel-luz\"></span></a></div>",
+      "css": ".ds-anden { background: var(--color-anden, #030407); padding: 0 24px 24px; font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-franja { height: 12px; margin: 0 -24px 24px; background: linear-gradient(to bottom, var(--color-yo, #ff3d4a) 0 50%, var(--color-ia, #2ab3ff) 50% 100%); box-shadow: 0 0 24px rgb(255 61 74 / 0.45), 0 0 24px rgb(42 179 255 / 0.45); } .ds-cartel { position: relative; display: block; aspect-ratio: 16 / 9; max-width: 560px; overflow: hidden; border-radius: 22px; background: #05070d; box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.1); color: #fff; text-decoration: none; transition: transform 700ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-cartel:hover, .ds-cartel:focus-visible { transform: scale(1.015); } .ds-cartel:focus-visible { outline: 2px solid var(--color-ia, #2ab3ff); outline-offset: 3px; } .ds-cartel-fondo { position: absolute; inset: 0; background: radial-gradient(90% 80% at 30% 20%, rgb(255 61 74 / 0.55), transparent 60%), radial-gradient(80% 80% at 80% 30%, rgb(42 179 255 / 0.45), transparent 60%), linear-gradient(to bottom, transparent, rgb(0 0 0 / 0.1) 50%, rgb(0 0 0 / 0.85)); filter: saturate(1.5); } .ds-cartel-panel { position: absolute; left: 20px; right: 20px; bottom: 20px; display: block; padding: 24px; border: 1px solid rgb(255 255 255 / 0.15); border-radius: 16px; background: rgb(0 0 0 / 0.45); backdrop-filter: blur(40px); box-shadow: 0 20px 40px -16px rgb(0 0 0 / 0.8); transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-cartel:hover .ds-cartel-panel { transform: translateY(-4px); } .ds-cartel-cab { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; } .ds-cartel-titulo { font-size: 40px; font-weight: 800; font-stretch: 68%; line-height: 0.92; letter-spacing: -0.01em; } .ds-marca { display: inline-flex; align-items: center; gap: 8px; margin-top: 4px; font-size: 12px; color: var(--color-rotulo-suave, #b9c4e6); white-space: nowrap; } .ds-marca-signo { width: 20px; height: 12px; box-sizing: border-box; border: 2px solid #fff; border-radius: 9999px; background: #fff; } .ds-marca-signo--obras { border-style: dashed; background: transparent; } .ds-cartel-banda { display: block; margin-top: 8px; font-size: 12px; color: var(--color-rotulo-suave, #b9c4e6); } .ds-tipo { font-size: 11px; font-weight: 600; font-stretch: 90%; letter-spacing: 0.14em; text-transform: uppercase; color: #8fd3ff; } .ds-cartel-ver { display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; } .ds-cartel-raya { display: inline-block; width: 32px; height: 2px; background: var(--color-yo, #ff3d4a); transition: width 300ms; } .ds-cartel:hover .ds-cartel-raya { width: 56px; } .ds-cartel-luz { position: absolute; inset: 0; border-radius: inherit; padding: 1.5px; background: conic-gradient(from 200deg, transparent 0deg, transparent 250deg, var(--color-yo, #ff3d4a) 300deg, var(--color-ia, #2ab3ff) 345deg, transparent 360deg); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity 400ms cubic-bezier(0.16, 1, 0.3, 1); pointer-events: none; } .ds-cartel:hover .ds-cartel-luz, .ds-cartel:focus-visible .ds-cartel-luz { opacity: 1; }"
+    },
+    {
+      "name": "Tarjeta de paso",
+      "kind": "card",
+      "refersTo": "tarjeta-paso",
+      "description": "Paso de «Cómo trabajo»: icono con anillo giratorio del color de la vía, cuadrícula en la esquina e icono grande desvanecido al fondo.",
+      "html": "<div class=\"ds-suelo\"><div class=\"ds-paso\"><div class=\"ds-paso-rejilla\" aria-hidden=\"true\"></div><span class=\"ds-paso-icono\" style=\"color:var(--color-ia, #2ab3ff)\" aria-hidden=\"true\"><span class=\"ds-anillo\"></span><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\"><path d=\"M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5.5l-3 13\" fill=\"none\" stroke=\"var(--color-tinta, #eef1f7)\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 24 24\" class=\"ds-paso-fondo\" aria-hidden=\"true\"><path d=\"M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5.5l-3 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><h3 class=\"ds-paso-titulo\">Genero</h3><p class=\"ds-paso-via\" style=\"color:var(--color-ia, #2ab3ff)\">Paso 2 · Vía IA</p><p class=\"ds-paso-texto\">La IA propone el código. Uso distintas herramientas y las combino según la tarea.</p></div></div>",
+      "css": ".ds-suelo { background: var(--color-plano, #07080c); padding: 24px; font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-paso { position: relative; max-width: 280px; overflow: hidden; padding: 24px; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 16px; background: linear-gradient(to bottom, rgb(255 255 255 / 0.04), transparent); color: var(--color-tinta, #eef1f7); transition: border-color 300ms; } .ds-paso:hover { border-color: rgb(255 255 255 / 0.25); } .ds-paso-rejilla { position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(to right, rgb(255 255 255 / 0.06) 1px, transparent 1px), linear-gradient(to bottom, rgb(255 255 255 / 0.06) 1px, transparent 1px); background-size: 28px 28px; -webkit-mask-image: linear-gradient(225deg, #000 0%, transparent 60%); mask-image: linear-gradient(225deg, #000 0%, transparent 60%); } .ds-paso-icono { position: relative; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 9999px; background: rgb(255 255 255 / 0.05); } .ds-anillo { position: absolute; inset: -3px; border-radius: 9999px; background: conic-gradient(from 0deg, transparent 0 70%, currentColor 100%); -webkit-mask: radial-gradient(circle, transparent calc(50% - 2px), #000 calc(50% - 1px)); mask: radial-gradient(circle, transparent calc(50% - 2px), #000 calc(50% - 1px)); animation: ds-vuelta 2.6s linear infinite; } @keyframes ds-vuelta { to { transform: rotate(360deg); } } .ds-paso-fondo { position: absolute; right: -16px; bottom: -16px; width: 112px; height: 112px; color: rgb(255 255 255 / 0.06); pointer-events: none; transition: color 500ms; } .ds-paso:hover .ds-paso-fondo { color: rgb(255 255 255 / 0.1); } .ds-paso-titulo { position: relative; margin: 20px 0 0; font-size: 36px; font-weight: 800; font-stretch: 68%; line-height: 0.92; letter-spacing: -0.01em; } .ds-paso-via { position: relative; margin: 8px 0 0; font-size: 14px; font-weight: 600; } .ds-paso-texto { position: relative; margin: 12px 0 0; font-size: 14px; line-height: 1.5; color: var(--color-suave, #9aa3b8); } @media (prefers-reduced-motion: reduce) { .ds-anillo { animation: none; } }"
+    },
+    {
+      "name": "Fichas de tecnología",
+      "kind": "chip",
+      "refersTo": "ficha-tecnologia",
+      "description": "Píldoras no interactivas de carbono claro con borde de hilo; las destacadas se invierten a tinta.",
+      "html": "<div class=\"ds-suelo\"><ul class=\"ds-fichas\"><li class=\"ds-ficha ds-ficha--destacada\">Java</li><li class=\"ds-ficha\">HTML</li><li class=\"ds-ficha\">CSS</li><li class=\"ds-ficha\">SQL</li></ul></div>",
+      "css": ".ds-suelo { background: var(--color-plano, #07080c); padding: 24px; font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-fichas { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; } .ds-ficha { padding: 6px 14px; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 9999px; background: var(--color-plano-2, #12151e); color: var(--color-tinta, #eef1f7); font-size: 0.95rem; } .ds-ficha--destacada { border-color: transparent; background: var(--color-tinta, #eef1f7); color: var(--color-plano, #07080c); font-weight: 600; }"
+    },
+    {
+      "name": "Navegación de estaciones",
+      "kind": "nav",
+      "refersTo": "cabecera",
+      "description": "Cabecera de escritorio: la línea de secciones con un tren rojo encendido que avanza con el scroll.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Principal\"><span class=\"ds-nav-via\"></span><span class=\"ds-nav-lleno\"></span><ol><li><a href=\"#\" class=\"ds-nav-est ds-nav-est--pasada\"><span class=\"ds-nav-anillo\"></span>Inicio</a></li><li><a href=\"#\" class=\"ds-nav-est ds-nav-est--pasada ds-nav-est--actual\" aria-current=\"location\"><span class=\"ds-nav-anillo\"></span>Proyectos</a></li><li><a href=\"#\" class=\"ds-nav-est\"><span class=\"ds-nav-anillo\"></span>Cómo trabajo</a></li><li><a href=\"#\" class=\"ds-nav-est\"><span class=\"ds-nav-anillo\"></span>Contacto</a></li></ol><span class=\"ds-nav-tren\"></span></nav>",
+      "css": ".ds-nav { position: relative; max-width: 640px; padding: 12px 0; border-bottom: 1px solid rgb(255 255 255 / 0.1); background: rgb(7 8 12 / 0.75); backdrop-filter: blur(24px); font-family: var(--font-sans, Archivo, ui-sans-serif, sans-serif); } .ds-nav ol { position: relative; display: flex; margin: 0; padding: 0; list-style: none; } .ds-nav li { flex: 1; } .ds-nav-via, .ds-nav-lleno { position: absolute; top: 21px; height: 4px; border-radius: 9999px; } .ds-nav-via { left: 12.5%; right: 12.5%; background: rgb(255 255 255 / 0.1); } .ds-nav-lleno { left: 12.5%; width: 33%; background: var(--color-yo, #ff3d4a); } .ds-nav-est { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 0 4px 4px; border-radius: 6px; font-size: 12px; color: var(--color-suave, #9aa3b8); text-decoration: none; transition: color 150ms; } .ds-nav-est:hover { color: var(--color-tinta, #eef1f7); } .ds-nav-est:focus-visible { outline: 2px solid var(--color-ia, #2ab3ff); outline-offset: 3px; } .ds-nav-anillo { width: 22px; height: 22px; box-sizing: border-box; border: 3px solid rgb(255 255 255 / 0.1); border-radius: 9999px; background: var(--color-plano, #07080c); transition: border-color 300ms; } .ds-nav-est:hover .ds-nav-anillo { border-color: var(--color-tinta, #eef1f7); } .ds-nav-est--pasada .ds-nav-anillo { border-color: var(--color-yo, #ff3d4a); box-shadow: 0 0 10px rgb(255 61 74 / 0.7); } .ds-nav-est--actual { font-weight: 600; color: var(--color-tinta, #eef1f7); } .ds-nav-tren { position: absolute; top: 15px; left: 45.5%; width: 36px; height: 16px; box-sizing: border-box; transform: translateX(-50%); border: 3px solid var(--color-plano, #07080c); border-radius: 9999px; background: var(--color-yo, #ff3d4a); box-shadow: 0 0 14px rgb(255 61 74 / 0.9); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El plano de noche",
+    "overview": "La web es un plano de metro de Madrid visto de noche: un papel carbono casi negro con su cuadrícula de delineante, y encima dos líneas encendidas como tubos de neón. La línea Yo, en rojo, y la línea IA, en azul, recorren la página de principio a fin; cada proyecto es una estación de correspondencia donde las dos se cruzan, y cada sección es una parada. La gramática sigue siendo la de la señalización de transporte: trazos gruesos con extremos redondos que giran solo a 45°, estaciones en cápsula, rótulos con letra condensada, cifras tabulares y una leyenda que explica cada signo. Lo nuevo es la luz: las líneas brillan, el resto del plano queda en penumbra.\n\nEl recorrido tiene cuatro materiales. El plano carbono para leer, con una cuadrícula que se desvanece hacia los bordes y dos luces de color que derivan despacio detrás; el andén, aún más negro, donde los proyectos cuelgan como carteles retroiluminados por su propia imagen y rotulados con paneles de cristal negro; los paneles y fichas en carbono claro (plano-2); y el azul rótulo para los letreros de estación. La densidad es baja y el ritmo vertical amplio: titulares enormes y estrechos, texto a ancho normal, mucho aire entre secciones. La portada va centrada: el nombre trazado en neón y relleno de metal, una frase con una pastilla de neón que cambia de palabra, y el plano debajo.\n\nEl movimiento es el de un plano que se enciende: el contorno del nombre se traza letra a letra y el metal lo barre después, las líneas se dibujan una vez, las estaciones se fijan con un golpe, las anotaciones a mano se trazan sobre la frase. Solo cuatro cosas se mueven en bucle, y todas son luz: las dos luces de fondo, el anillo del paso activo, la palabra de la pastilla y la luz del borde de un cartel en hover. Con movimiento reducido todo aparece ya dibujado y quieto. El sistema actual sustituye por decisión del dueño al anterior en papel claro («colores más negros, carbono, rollo neón»).",
+    "keyCharacteristics": [
+      "Fondo carbono (#07080c) con cuadrícula de plano desvanecida y dos luces de color que derivan.",
+      "Dos colores de línea con significado fijo (rojo Yo, azul IA) y dos secundarios (amarillo Formación, verde Experiencia), todos en neón y con halo.",
+      "Una sola familia, Archivo de anchura variable: condensada para nombres, normal para el texto.",
+      "Trazos de 8–10 px con extremos redondos, giros a 45°, estaciones en cápsula.",
+      "Estado indicado con un signo (cápsula llena o discontinua), nunca solo con color.",
+      "Texto negro sobre cualquier relleno neón o claro.",
+      "El nombre de la portada es la única pieza con contorno trazado y relleno metálico.",
+      "Animaciones de una sola vez; los únicos bucles son de luz, y todos se detienen con movimiento reducido."
+    ],
+    "rules": [
+      {
+        "name": "The Two Lines Rule",
+        "body": "Rojo es Yo y azul es IA en todo el sitio. No se intercambian ni se usan como decoración suelta; donde aparecen juntos (franja del andén, luces de fondo, luz del borde de un cartel, barras de sección, líneas de contacto) representan las dos líneas.",
+        "section": "colors"
+      },
+      {
+        "name": "The Black On Neon Rule",
+        "body": "El texto sobre un relleno neón o claro va en negro (#000). El blanco no pasa contraste sobre ellos (2,3:1 sobre azul IA, 3,5:1 sobre rojo Yo); el negro sí (9:1 y 6:1).",
+        "section": "colors"
+      },
+      {
+        "name": "The Carbon Grounds Rule",
+        "body": "Solo hay cuatro suelos: plano carbono para leer, andén para los proyectos, carbono claro para paneles y fichas, azul rótulo para letreros. No se añaden fondos de sección intermedios.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Solo Archivo. La jerarquía se construye con el eje de anchura (68 / 80 / 90 / 100 %) y el peso, nunca con una segunda familia.",
+        "section": "typography"
+      },
+      {
+        "name": "The Station Sign Rule",
+        "body": "La anchura del 68 % con peso 800 es para nombres: personas, proyectos, estaciones y secciones. Las frases y párrafos van siempre a anchura normal.",
+        "section": "typography"
+      },
+      {
+        "name": "The Panel Label Rule",
+        "body": "Las versalitas son datos de un panel (estado, tipo, vía). No se colocan como antetítulo encima de un titular.",
+        "section": "typography"
+      },
+      {
+        "name": "The Metal Name Rule",
+        "body": "El contorno trazado en azul IA y el relleno metálico (degradado vertical blanco → metal-medio → metal-bajo) son una excepción pedida por el dueño y exclusiva del nombre de la portada. Ningún otro titular lleva contorno, degradado ni relleno metálico.",
+        "section": "typography"
+      },
+      {
+        "name": "The 45° Rule",
+        "body": "Las líneas van rectas y giran solo a 45°. No hay curvas libres ni diagonales de otro ángulo. Las anotaciones a mano alzada no son líneas del plano: son la mano que escribe encima.",
+        "section": "layout"
+      },
+      {
+        "name": "The Blueprint Rule",
+        "body": "La cuadrícula es el papel del plano, pedida por el dueño como superficie de delineante. Va a 56 px y desvanecida en la portada y en contacto (al 70 %), y a 28 px en la esquina superior derecha de las tarjetas de paso. No cubre la página entera ni entra en el andén.",
+        "section": "layout"
+      },
+      {
+        "name": "The Neon Halo Rule",
+        "body": "El halo pertenece a las líneas y a sus marcas (trazos, trenes, barras, estación pasada, franja, tope) y a las acciones principales. El texto corrido, las tarjetas y los paneles no brillan.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Backlight Rule",
+        "body": "En el andén la luz sale de la imagen: un duplicado desenfocado (40 px, saturación 150 %, opacidad 60 % que sube a 90 % en hover) detrás de cada cartel y figura.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Glass Caption Rule",
+        "body": "Lo que se lee encima de una imagen va en cristal negro: velo de cristal, desenfoque de fondo de 40 px y borde de cristal. Solo sobre imágenes; sobre el carbono liso, los paneles son carbono claro o hilo.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Sign Not Color Rule",
+        "body": "El estado de un proyecto se marca con la forma: cápsula llena para «en servicio», cápsula vacía con borde discontinuo para «en obras». El color no basta.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Light Loop Rule",
+        "body": "Solo la luz se mueve en bucle: las luces de fondo (18 s), el anillo del paso activo (2,6 s), la palabra de la pastilla (2,6 s) y la luz del borde de un cartel en hover (3,2 s). Las marcas aparecen una vez y se quedan quietas.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do usar rojo Yo y azul IA solo para las dos líneas y para lo que representan (The Two Lines Rule).",
+      "Do poner el texto en negro (#000) sobre la pastilla, el botón claro, el correo y cualquier relleno neón.",
+      "Do escribir los nombres de estación, sección y proyecto con el rótulo condensado (anchura 68 %, peso 800) y el texto corrido a anchura normal.",
+      "Do marcar el estado con una cápsula llena o discontinua y su texto, como en la leyenda del plano.",
+      "Do dibujar las líneas con extremos redondos y giros a 45°, con trazos de 8–10 px y su halo de línea.",
+      "Do construir bordes y velos con blanco translúcido de la escala (10 % hilo, 15 % cristal, 25–50 % en hover).",
+      "Do usar la curva de llegada `cubic-bezier(0.16, 1, 0.3, 1)` para entradas y cambios de estado, y `cubic-bezier(0.65, 0, 0.35, 1)` para trazar líneas, contornos y anotaciones.",
+      "Do dar a cada animación su versión quieta: con movimiento reducido el nombre y las anotaciones aparecen dibujados, el plano aparece trazado, los trenes no se crean, las luces y el anillo se detienen, la palabra no rota y la luz del borde queda fija.",
+      "Do mantener las zonas táctiles en 44–56 px de alto."
+    ],
+    "donts": [
+      "Don't poner texto blanco sobre un relleno rojo Yo o azul IA.",
+      "Don't usar el contorno trazado ni el relleno metálico fuera del nombre de la portada.",
+      "Don't extender la cuadrícula a toda la página ni al andén.",
+      "Don't dar halo neón al texto corrido, a las tarjetas ni a los paneles.",
+      "Don't usar el azul rótulo como botón: sobre el carbono casi no se distingue del suelo (1,13:1).",
+      "Don't añadir una segunda familia tipográfica.",
+      "Don't colocar versalitas como antetítulo encima de un titular.",
+      "Don't añadir bucles de animación fuera de los cuatro de luz; las marcas aparecen una vez y se quedan quietas."
+    ]
+  }
+}

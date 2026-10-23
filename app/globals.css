@@ -1,47 +1,251 @@
 @import "tailwindcss";
 
 @theme {
-  --color-fondo: #050505;
-  --color-tarjeta: #0b0b0b;
-  --color-texto: #fafafa;
-  --color-suave: #9f9f9f;
-  --color-borde: rgb(255 255 255 / 0.1);
-  --color-acento: #34d399;
-  --radius-tarjeta: 0.625rem;
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  /* Fondo carbono: el plano de metro de noche */
+  --color-plano: #07080c;
+  --color-plano-2: #12151e;
+  --color-tinta: #eef1f7;
+  --color-suave: #9aa3b8;
+  --color-hilo: rgb(255 255 255 / 0.1);
+
+  /* Líneas en neón */
+  --color-yo: #ff3d4a;
+  --color-ia: #2ab3ff;
+  --color-formacion: #ffd23f;
+  --color-experiencia: #3ddc84;
+
+  /* Rótulos y andén */
+  --color-rotulo: #0d1734;
+  --color-rotulo-suave: #b9c4e6;
+  --color-anden: #030407;
+  --color-anden-texto: #e9ecf4;
+  --color-anden-suave: #a3aac0;
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-llegada: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html {
   scroll-behavior: smooth;
+  scrollbar-color: #2a2f3d var(--color-plano);
+  accent-color: var(--color-ia);
 }
 
 section[id] {
-  scroll-margin-top: 4.5rem;
+  scroll-margin-top: 5rem;
 }
 
 body {
-  background: var(--color-fondo);
-  color: var(--color-texto);
+  background: var(--color-plano);
+  color: var(--color-tinta);
+  caret-color: var(--color-ia);
+  font-variant-numeric: tabular-nums;
 }
 
-.fondo-cuadricula {
+::selection {
+  background: var(--color-ia);
+  color: #000;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ia);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+/* Rótulo de estación: Archivo estrecha y pesada */
+.rotulo {
+  font-stretch: 68%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 0.92;
+}
+
+.rotulo-medio {
+  font-stretch: 80%;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.versalitas {
+  font-stretch: 90%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* Neón: el trazo de una línea con su halo */
+.neon-yo {
+  filter: drop-shadow(0 0 6px rgb(255 61 74 / 0.75)) drop-shadow(0 0 18px rgb(255 61 74 / 0.35));
+}
+.neon-ia {
+  filter: drop-shadow(0 0 6px rgb(42 179 255 / 0.75)) drop-shadow(0 0 18px rgb(42 179 255 / 0.35));
+}
+.neon-blanco {
+  filter: drop-shadow(0 0 5px rgb(255 255 255 / 0.55));
+}
+
+/* Cuadrícula del plano, que se desvanece hacia los bordes */
+.cuadricula {
   background-image:
-    linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 80%);
 }
 
-.nombre-metal {
-  background: linear-gradient(180deg, #ffffff 20%, #7a7a7a 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.cuadricula-esquina {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: linear-gradient(225deg, #000 0%, transparent 60%);
+}
+
+/* Dos luces de color que se mueven despacio detrás de la portada */
+@keyframes deriva {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4%, -6%, 0) scale(1.12);
+  }
+}
+.luz {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(110px);
+  opacity: 0.32;
+  animation: deriva 18s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Anillo que gira alrededor de un icono */
+@keyframes vuelta {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.anillo {
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background: conic-gradient(from 0deg, transparent 0 70%, currentColor 100%);
+  mask: radial-gradient(circle, transparent calc(50% - 2px), #000 calc(50% - 1px));
+  animation: vuelta 2.6s linear infinite;
+}
+
+/* Luz que recorre el borde de un cartel del andén (rojo Yo → azul IA) */
+@property --giro {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.borde-luz {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--giro),
+    transparent 0deg,
+    transparent 250deg,
+    var(--color-yo) 300deg,
+    var(--color-ia) 345deg,
+    transparent 360deg
+  );
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 400ms var(--ease-llegada);
+  pointer-events: none;
+}
+
+.group:hover .borde-luz,
+.group:focus-visible .borde-luz {
+  opacity: 1;
+  animation: giro 3.2s linear infinite;
+}
+
+@keyframes giro {
+  to {
+    --giro: 360deg;
+  }
+}
+
+/* Franja de color de la pared del andén */
+.franja-anden {
+  background: linear-gradient(to bottom, var(--color-yo) 0 50%, var(--color-ia) 50% 100%);
+  box-shadow:
+    0 0 24px rgb(255 61 74 / 0.45),
+    0 0 24px rgb(42 179 255 / 0.45);
+}
+
+/* Nombre de la portada: contorno neón trazado letra a letra y relleno que barre después */
+.nombre-neon {
+  filter: drop-shadow(0 0 18px rgb(42 179 255 / 0.18));
+}
+.nombre-trazo tspan {
+  stroke-dasharray: 720;
+  stroke-dashoffset: 720;
+  animation: trazar 1.1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes trazar {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.nombre-relleno {
+  clip-path: inset(0 100% 0 0);
+  animation: barrer 0.9s var(--ease-llegada) 1.15s forwards;
+}
+@keyframes barrer {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* Trazo a mano alzada (subrayado o caja) que se dibuja sobre una frase */
+.trazo-mano path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: trazar-mano 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes trazar-mano {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .luz,
+  .anillo {
+    animation: none;
+  }
+  .nombre-trazo tspan,
+  .trazo-mano path {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+  .nombre-relleno {
+    animation: none;
+    clip-path: none;
+  }
+  .group:hover .borde-luz,
+  .group:focus-visible .borde-luz {
+    animation: none;
+    --giro: 200deg;
   }
 }

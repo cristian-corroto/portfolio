@@ -5,7 +5,6 @@ import ComoTrabajo from "@/components/ComoTrabajo";
 import Trayectoria from "@/components/Trayectoria";
 import Aptitudes from "@/components/Aptitudes";
 import Contacto from "@/components/Contacto";
-import Pie from "@/components/Pie";
 
 export default function Inicio() {
   return (
@@ -19,7 +18,6 @@ export default function Inicio() {
         <Aptitudes />
         <Contacto />
       </main>
-      <Pie />
     </>
   );
 }

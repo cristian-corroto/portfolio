@@ -3,20 +3,21 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
+// Pastilla de neón cuya palabra cambia letra a letra.
 export default function PalabraRotatoria({ palabras }: { palabras: string[] }) {
   const [i, setI] = useState(0);
-  const sinMovimiento = useReducedMotion();
+  const quieto = useReducedMotion();
 
   useEffect(() => {
-    if (sinMovimiento) return;
-    const t = setInterval(() => setI((n) => (n + 1) % palabras.length), 2400);
+    if (quieto) return;
+    const t = setInterval(() => setI((n) => (n + 1) % palabras.length), 2600);
     return () => clearInterval(t);
-  }, [palabras.length, sinMovimiento]);
+  }, [palabras.length, quieto]);
 
   const palabra = palabras[i];
 
   return (
-    <span className="inline-flex overflow-hidden rounded-lg bg-acento px-3 py-1 align-bottom font-semibold text-black">
+    <span className="inline-flex overflow-hidden rounded-lg bg-ia px-3 py-0.5 align-middle text-black shadow-[0_0_28px_rgb(42_179_255/0.45)]">
       <span className="sr-only">{palabras.join(", ")}</span>
       <AnimatePresence mode="wait" initial={false}>
         <motion.span
@@ -37,11 +38,11 @@ export default function PalabraRotatoria({ palabras }: { palabras: string[] }) {
               key={`${palabra}-${k}`}
               className="inline-block whitespace-pre"
               variants={{
-                oculta: { y: "100%", opacity: 0 },
-                visible: { y: 0, opacity: 1 },
-                sale: { y: "-100%", opacity: 0 },
+                oculta: { y: "110%", rotateX: -70, opacity: 0 },
+                visible: { y: 0, rotateX: 0, opacity: 1 },
+                sale: { y: "-110%", rotateX: 70, opacity: 0 },
               }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
+              transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
             >
               {letra}
             </motion.span>

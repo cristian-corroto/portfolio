@@ -4,6 +4,8 @@ export type Hito = {
   titulo: string;
   lugar: string;
   puntos: string[];
+  // Detalle plegado (por ejemplo, la lista de asignaturas).
+  detalle?: { titulo: string; items: string[] };
 };
 
 // De más reciente a más antiguo.
@@ -25,11 +27,25 @@ export const trayectoria: Hito[] = [
     lugar: "IES María Moliner (Segovia, a distancia) · primer curso en el IES Lázaro Cárdenas",
     puntos: [
       "Formación académica superada.",
-      "Programación (Java y programación orientada a objetos: clases, herencia, polimorfismo), Bases de datos y Acceso a datos.",
-      "Lenguajes de marcas y sistemas de gestión de información (HTML, CSS, XML, XSD) y Desarrollo de interfaces.",
-      "Programación multimedia y de dispositivos móviles, Programación de servicios y procesos, Entornos de desarrollo, Sistemas informáticos, Sistemas de gestión empresarial e Inglés profesional para informática.",
+      "Lo más importante: Java y programación orientada a objetos (clases, herencia, polimorfismo), bases de datos y acceso a datos.",
       "Proyecto final: SafeRouteAI.",
     ],
+    detalle: {
+      titulo: "Ver todas las asignaturas",
+      items: [
+        "Programación",
+        "Bases de datos",
+        "Acceso a datos",
+        "Lenguajes de marcas (HTML, CSS, XML, XSD)",
+        "Desarrollo de interfaces",
+        "Programación multimedia y de dispositivos móviles",
+        "Programación de servicios y procesos",
+        "Entornos de desarrollo",
+        "Sistemas informáticos",
+        "Sistemas de gestión empresarial",
+        "Inglés profesional para informática",
+      ],
+    },
   },
   {
     tipo: "Experiencia",
