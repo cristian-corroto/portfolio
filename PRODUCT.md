@@ -29,7 +29,7 @@ Se ve en móvil y en escritorio. Se publica como sitio estático en Netlify (cri
 ## Capabilities and Constraints
 
 - Next.js 15 (export estático), React 19, Tailwind 4, Framer Motion. Sin servidor.
-- Proyectos reales: SafeRouteAI (app Android + API, publicada como APK), web de SafeRouteAI (publicada), JothanPh Fotografía (web completa de su hermano, funciona en local, sin desplegar), REDLINE/26 (web animada sobre el Mundial de MotoGP 2026, home terminada, sin publicar). Hay además una web hecha para un negocio real que no se muestra hasta tener el permiso del cliente; su ficha está fuera de este repo.
+- Proyectos reales: SafeRouteAI (app Android + API, publicada como APK), web de SafeRouteAI (publicada), JothanPh Fotografía (web completa de su hermano, funciona en local, sin desplegar), REDLINE/26 (web animada sobre el Mundial de MotoGP 2026, cinco páginas terminadas, sin publicar). Hay además una web hecha para un negocio real que no se muestra hasta tener el permiso del cliente; su ficha está fuera de este repo.
 - Formación: SMR (2021–2023), DAM (2024–2026). Prácticas en el Hospital de Villalba (2023) y en un despacho de abogados (2025).
 
 ## Brand Commitments
