@@ -100,10 +100,10 @@ export const proyectos: Proyecto[] = [
       "Web sobre el Mundial de MotoGP 2026, con animaciones al hacer scroll, efectos 3D y los datos de la temporada.",
     imagen: "/proyectos/redline-portada.webp",
     encuadre: "captura",
-    pieImagen: "Página de inicio, funcionando en local.",
-    estado: "Terminada · funciona en local, sin publicar",
-    estadoCorto: "Terminada",
-    marca: "servicio",
+    pieImagen: "Página de inicio.",
+    estado: "En desarrollo · publicada, se actualiza tras cada GP",
+    estadoCorto: "En desarrollo",
+    marca: "obras",
     objetivo:
       "Hacer una web del Mundial de MotoGP 2026 que se vea como una retransmisión: calendario, resultados y clasificación de MotoGP, Moto2 y Moto3.",
     como: [
@@ -113,15 +113,14 @@ export const proyectos: Proyecto[] = [
       "La página de circuitos dibuja la ruta del Mundial en un mapa SVG hecho a mano, con una ampliación de Europa.",
     ],
     estadoDetalle: [
-      "Las cinco páginas están terminadas y funcionan en ordenador y en móvil.",
-      "Los datos llegan hasta el GP de Indonesia (ronda 17 de 22) y se actualizan a mano después de cada carrera.",
+      "Publicada en Netlify, con las cinco páginas funcionando en ordenador y en móvil.",
+      "Sigue en desarrollo: los datos se actualizan a mano después de cada carrera hasta el final de la temporada, y la web irá cambiando según evolucione el campeonato.",
       "Sin logos, fotos ni marcas oficiales: el trazado de la portada es una ilustración.",
-      "Aún no está publicada.",
     ],
     tecnologias: ["HTML", "CSS", "JavaScript", "GSAP", "ScrollTrigger", "Lenis", "Three.js", "SVG"],
     ia: "Apoyo intensivo de IA en el código, en las animaciones y en la búsqueda de datos de la temporada.",
     yo: "Yo planteé la idea: que la web se sintiera como una retransmisión de televisión. Elegí el estilo y las animaciones, revisé cada pantalla y pedí cambios hasta que la portada estuvo a la altura; después llevé ese mismo estilo al resto de páginas.",
-    enlaces: [],
+    enlaces: [{ texto: "Ver la web", href: "https://redline-26.netlify.app/" }],
   },
   {
     slug: "web-saferouteai",
