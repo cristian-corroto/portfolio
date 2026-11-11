@@ -59,7 +59,7 @@ export default function Portada() {
           animate={{ opacity: 1, y: 0 }}
           transition={t({ duration: 0.6, delay: 1.7, ease: llegada })}
         >
-          Desarrollador junior en Madrid. Construyo apps y webs{" "}
+          Desarrollador junior en Alicante. Construyo apps y webs{" "}
           <Trazo forma="subrayado" color="var(--color-ia)" retraso={2.3}>
             con IA
           </Trazo>{" "}

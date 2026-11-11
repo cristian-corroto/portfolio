@@ -10,7 +10,7 @@ web
 
 ## Users
 
-- Personas que pueden contratar a un desarrollador junior en Madrid o en remoto: responsables técnicos, reclutadores y empresas que ofrecen prácticas (FCT) o un primer puesto. Llegan desde LinkedIn, GitHub o un enlace en el CV y deciden en poco tiempo.
+- Personas que pueden contratar a un desarrollador junior en Alicante, en Madrid o en remoto: responsables técnicos, reclutadores y empresas que ofrecen prácticas (FCT) o un primer puesto. Llegan desde LinkedIn, GitHub o un enlace en el CV y deciden en poco tiempo.
 - Gente de su círculo cercano (familia, amigos) que abre la web desde el móvil por curiosidad. Tiene que entenderse sin saber de programación.
 - Posibles clientes pequeños (negocios locales) que vean las webs que ha hecho (inferido: Cristian prepara webs para negocios, pero aún no cobra por ello).
 

@@ -77,8 +77,8 @@ export default function Contacto() {
         <div className="mx-auto max-w-6xl">
           <h2 className="rotulo text-[clamp(3.6rem,11vw,6rem)]">¿Hablamos?</h2>
           <p className="mt-6 max-w-[52ch] text-lg text-suave">
-            Si quieres hablar de un proyecto, de una colaboración o de una oportunidad, escríbeme. Estoy en Madrid y
-            trabajo en remoto o en híbrido.
+            Si quieres hablar de un proyecto, de una colaboración o de una oportunidad, escríbeme. Estoy en Alicante y
+            trabajo en remoto o en híbrido; también me encaja Madrid.
           </p>
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
@@ -136,7 +136,7 @@ export default function Contacto() {
           </div>
 
           <footer className="mt-24 flex flex-col gap-1 border-t border-hilo pt-6 text-sm text-suave sm:flex-row sm:justify-between">
-            <p>© 2026 Cristian Corroto · Madrid</p>
+            <p>© 2026 Cristian Corroto · Alicante</p>
             <p>Web hecha con Next.js y Tailwind, con apoyo de IA.</p>
           </footer>
         </div>
