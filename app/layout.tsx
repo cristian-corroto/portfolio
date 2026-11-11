@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     title: titulo,
     description: descripcion,
     siteName: "Cristian Corroto",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Cristian Corroto · Desarrollador junior" }],
+    images: [{ url: "/og.png?v=2", width: 1200, height: 630, alt: "Cristian Corroto · Desarrollador junior" }],
   },
   twitter: {
     card: "summary_large_image",
     title: titulo,
     description: descripcion,
-    images: ["/og.png"],
+    images: ["/og.png?v=2"],
   },
 };
 
