@@ -36,7 +36,7 @@ const ESCRITORIO: Mapa = {
     [774, 6],
     [1040, 6],
   ],
-  posiciones: [290, 880, 985, 400],
+  posiciones: [290, 880, 985, 400, 805],
   paradas: [
     { u: 627, v: -80, texto: "Cómo trabajo", href: "#ia" },
     { u: 627, v: 80, texto: "Trayectoria", href: "#formacion" },
@@ -61,7 +61,7 @@ const MOVIL: Mapa = {
     [558, 6],
     [920, 6],
   ],
-  posiciones: [230, 680, 790, 330],
+  posiciones: [230, 680, 790, 330, 600],
   paradas: [],
   uFinal: 920,
   uRotulos: 40,

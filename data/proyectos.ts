@@ -147,4 +147,35 @@ export const proyectos: Proyecto[] = [
     yo: "Yo decidí qué contar y revisé que cada dato fuera cierto: sin «tiempo real» ni cifras infladas.",
     enlaces: [{ texto: "Ver la web", href: "https://saferouteai-app.netlify.app/" }],
   },
+  {
+    slug: "tigeros",
+    titulo: "TigerOS",
+    tipo: "App de escritorio para Windows",
+    fecha: "2026",
+    resumen:
+      "Aplicación para optimizar Windows 10 y 11 con tres niveles, que apunta cada cambio y mide el rendimiento antes y después.",
+    imagen: "/proyectos/tigeros-portada.webp",
+    encuadre: "captura",
+    pieImagen: "Página Optimizar con el nivel Extremo: cada ajuste dice qué toca y qué se pierde.",
+    estado: "Terminada · en pruebas con más usuarios",
+    estadoCorto: "Terminada",
+    marca: "servicio",
+    objetivo:
+      "Bajar procesos y carga de CPU en Windows para rendir más en juegos, sabiendo en todo momento qué se ha cambiado y pudiendo deshacerlo.",
+    como: [
+      "Aplicación de escritorio en C# con .NET y WPF, distribuida como un único ejecutable portable.",
+      "Tres niveles: Básico, Avanzado y Extremo (pensado para jugar). Antes de aplicar, cada ajuste explica qué toca, qué se pierde y si pide reinicio.",
+      "Antes de cambiar nada guarda el estado anterior, comprueba cada cambio y lo apunta en un historial desde el que se deshace; lo que no tiene vuelta atrás lo avisa antes de aplicar.",
+      "Mide el rendimiento antes y después en el propio PC en lugar de prometer cifras, y tiene más de 700 pruebas automáticas.",
+    ],
+    estadoDetalle: [
+      "Terminada y funcionando en mi PC; ahora la están probando más usuarios.",
+      "Todavía no hay mediciones de FPS en juegos, así que no doy cifras de mejora.",
+      "Sin descarga pública por ahora.",
+    ],
+    tecnologias: ["C#", ".NET", "WPF", "Windows"],
+    ia: "Apoyo intensivo de IA en el código y en la investigación de cada ajuste de Windows.",
+    yo: "Yo decidí qué tenía que hacer y cómo controlar cada cambio, probé cada nivel en mi PC y pedí cambios hasta que nunca quedara duda de qué había tocado la app.",
+    enlaces: [],
+  },
 ];

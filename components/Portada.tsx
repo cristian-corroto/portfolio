@@ -50,7 +50,7 @@ export default function Portada() {
           animate={{ opacity: 1, y: 0 }}
           transition={t({ duration: 0.6, delay: 1.5, ease: llegada })}
         >
-          Desarrollo <PalabraRotatoria palabras={["apps Android", "webs animadas", "con IA"]} />
+          Desarrollo <PalabraRotatoria palabras={["webs animadas", "apps para Windows", "apps Android", "con IA"]} />
         </motion.p>
 
         <motion.p
