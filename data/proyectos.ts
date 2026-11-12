@@ -9,6 +9,8 @@ export type Proyecto = {
   // «captura»: la imagen es la web en pantalla y se enmarca dentro del panel.
   encuadre?: "cartel" | "captura";
   pieImagen?: string;
+  // Vídeo vertical de presentación (opcional), con su imagen de portada.
+  video?: { src: string; poster: string; pie?: string };
   icono?: string;
   estado: string;
   estadoCorto: string;
@@ -157,6 +159,11 @@ export const proyectos: Proyecto[] = [
     imagen: "/proyectos/tigeros-portada.webp",
     encuadre: "captura",
     pieImagen: "Página Optimizar con el nivel Extremo: cada ajuste dice qué toca y qué se pierde.",
+    video: {
+      src: "/proyectos/tigeros-short.mp4",
+      poster: "/proyectos/tigeros-short-poster.webp",
+      pie: "La app en menos de un minuto: niveles, qué toca cada ajuste, medición e historial. Voz generada.",
+    },
     estado: "Terminada · en pruebas con más usuarios",
     estadoCorto: "Terminada",
     marca: "servicio",

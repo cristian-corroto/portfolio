@@ -111,6 +111,24 @@ export default async function PaginaProyecto({ params }: Props) {
             </figure>
           )}
 
+          {p.video && (
+            <figure className="mt-10">
+              <div className="relative overflow-hidden rounded-[22px] bg-anden p-4 sm:p-8">
+                <video
+                  src={p.video.src}
+                  poster={p.video.poster}
+                  controls
+                  playsInline
+                  preload="none"
+                  className="relative mx-auto aspect-[9/16] w-full max-w-[360px] rounded-xl bg-black shadow-[0_30px_60px_-20px_rgb(0_0_0/0.8)] ring-1 ring-white/15"
+                >
+                  Tu navegador no puede reproducir este vídeo.
+                </video>
+              </div>
+              {p.video.pie && <figcaption className="mt-3 text-sm text-suave">{p.video.pie}</figcaption>}
+            </figure>
+          )}
+
           {/* Las dos líneas: qué hice yo y qué hizo la IA */}
           <section className="mt-14" aria-labelledby="quien">
             <h2 id="quien" className="rotulo text-4xl sm:text-5xl">
