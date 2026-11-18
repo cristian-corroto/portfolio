@@ -77,7 +77,7 @@ export const proyectos: Proyecto[] = [
     estadoCorto: "Publicada",
     marca: "servicio",
     objetivo:
-      "Construir la web de un fotógrafo de Madrid (el negocio de mi hermano) y ponerla en marcha para que la use de verdad con sus clientes.",
+      "Construir la web de un fotógrafo deportivo de Madrid y ponerla en marcha para que la use de verdad con sus clientes.",
     como: [
       "Hecha con Next.js (React) y TypeScript, con SQLite (Drizzle) para los datos y NextAuth para el inicio de sesión.",
       "Incluye portfolio de fotos, agenda de sesiones con pedidos de fotos, área de clientes con login, sesiones privadas visibles solo para el cliente con permiso, reseñas, avisos al móvil y un panel de administración con cobros y estadísticas.",
@@ -92,7 +92,7 @@ export const proyectos: Proyecto[] = [
     ],
     tecnologias: ["Next.js", "React", "TypeScript", "Tailwind", "SQLite", "Drizzle", "NextAuth", "Docker", "Linux (VPS)"],
     ia: "Apoyo intensivo de IA en el código y en la puesta en marcha del servidor.",
-    yo: "Yo defino lo que necesita la web junto a su usuario real, mi hermano, pruebo cada funcionalidad y reviso el resultado antes de publicarlo.",
+    yo: "Yo defino con el fotógrafo lo que necesita la web, pruebo cada funcionalidad y reviso el resultado antes de publicarlo.",
     enlaces: [{ texto: "Ver la web", href: "https://srv2121091.hstgr.cloud/" }],
   },
   {
