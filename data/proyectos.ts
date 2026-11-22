@@ -83,17 +83,20 @@ export const proyectos: Proyecto[] = [
       "Incluye portfolio de fotos, agenda de sesiones con pedidos de fotos, área de clientes con login, sesiones privadas visibles solo para el cliente con permiso, reseñas, avisos al móvil y un panel de administración con cobros y estadísticas.",
       "Las fotos se publican con marca de agua; el cliente recibe los originales al comprarlas.",
       "Publicada en un servidor VPS propio (Linux) con Docker y HTTPS, copias de seguridad diarias cifradas y un vigilante externo que avisa si la web deja de responder.",
-      "Más de 540 tests automáticos y una prueba de carga en el servidor con 100 clientes simultáneos, sin errores.",
+      "Más de 580 tests unitarios y 87 pruebas de extremo a extremo en varios navegadores y tamaños de pantalla, y una prueba de carga en el servidor con 100 clientes simultáneos, sin errores.",
     ],
     estadoDetalle: [
       "Publicada y funcionando, ya con sesiones de fotos reales.",
       "Está en una dirección provisional; el siguiente paso es pasarle el dominio del negocio.",
-      "El código es privado.",
+      "El código es privado; la presentación del proyecto está en GitHub.",
     ],
     tecnologias: ["Next.js", "React", "TypeScript", "Tailwind", "SQLite", "Drizzle", "NextAuth", "Docker", "Linux (VPS)"],
     ia: "Apoyo intensivo de IA en el código y en la puesta en marcha del servidor.",
     yo: "Yo defino con el fotógrafo lo que necesita la web, pruebo cada funcionalidad y reviso el resultado antes de publicarlo.",
-    enlaces: [{ texto: "Ver la web", href: "https://srv2121091.hstgr.cloud/" }],
+    enlaces: [
+      { texto: "Ver la web", href: "https://srv2121091.hstgr.cloud/" },
+      { texto: "Ver en GitHub", href: "https://github.com/cristian-corroto/jothanph-fotografia" },
+    ],
   },
   {
     slug: "redline-26",
