@@ -126,7 +126,10 @@ export const proyectos: Proyecto[] = [
     tecnologias: ["HTML", "CSS", "JavaScript", "Netlify Functions", "API REST", "GSAP", "ScrollTrigger", "Lenis", "Three.js", "SVG"],
     ia: "Apoyo intensivo de IA en el código, en las animaciones y en la integración con la API de datos.",
     yo: "Yo planteé la idea: que la web se sintiera como una retransmisión de televisión. Elegí el estilo y las animaciones, revisé cada pantalla y pedí cambios hasta que la portada estuvo a la altura. Cuando actualizar los datos a mano tras cada GP se volvió un problema, propuse que la web se actualizara sola y comprobé que los datos coincidieran con los oficiales.",
-    enlaces: [{ texto: "Ver la web", href: "https://redline-26.netlify.app/" }],
+    enlaces: [
+      { texto: "Ver la web", href: "https://redline-26.netlify.app/" },
+      { texto: "Ver el código", href: "https://github.com/cristian-corroto/redline-26" },
+    ],
   },
   {
     slug: "web-saferouteai",
