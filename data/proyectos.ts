@@ -11,6 +11,8 @@ export type Proyecto = {
   pieImagen?: string;
   // Vídeo vertical de presentación (opcional), con su imagen de portada.
   video?: { src: string; poster: string; pie?: string };
+  // Diagrama de cómo funciona por dentro (opcional), a ancho completo.
+  diagrama?: { src: string; alt: string; pie?: string };
   icono?: string;
   estado: string;
   estadoCorto: string;
@@ -112,6 +114,11 @@ export const proyectos: Proyecto[] = [
       src: "/proyectos/redline-short.mp4",
       poster: "/proyectos/redline-short-poster.webp",
       pie: "REDLINE/26 en 27 segundos: datos oficiales, titulares que se escriben solos y la copia de seguridad que evita que la web se quede en blanco. Montaje programado con Remotion, móvil en 3D con Blender y voz generada con IA.",
+    },
+    diagrama: {
+      src: "/proyectos/redline-arquitectura.webp",
+      alt: "Arquitectura de REDLINE/26: una tarea programada en GitHub Actions lee la API pública de resultados, motogp.mjs calcula la temporada y la guarda en Cloudflare KV; la web la pide a /api/season y live.js genera los datos y titulares de las 5 páginas; si la API cae, usa una copia de respaldo.",
+      pie: "Cómo se mantiene sola: GitHub Actions calcula la temporada, Cloudflare la guarda y la web la lee de ahí. Si algo falla, tira de una copia de respaldo.",
     },
     estado: "Publicada · datos oficiales en tiempo real",
     estadoCorto: "Datos en tiempo real",

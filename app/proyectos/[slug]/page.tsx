@@ -180,6 +180,35 @@ export default async function PaginaProyecto({ params }: Props) {
             </aside>
           </div>
 
+          {p.diagrama && (
+            <section className="mt-14" aria-labelledby="por-dentro">
+              <h2 id="por-dentro" className="rotulo-medio text-3xl">
+                Cómo funciona por dentro
+              </h2>
+              <figure className="mt-6">
+                <div className="overflow-hidden rounded-[22px] bg-anden ring-1 ring-white/10">
+                  {/* En móvil se desliza en horizontal para que el texto del diagrama no se encoja */}
+                  <div className="overflow-x-auto">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={p.diagrama.src}
+                      alt={p.diagrama.alt}
+                      width={1920}
+                      height={1200}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full min-w-[760px]"
+                    />
+                  </div>
+                </div>
+                <figcaption className="mt-3 text-sm text-suave">
+                  <span className="md:hidden">Desliza para ver el diagrama completo. </span>
+                  {p.diagrama.pie}
+                </figcaption>
+              </figure>
+            </section>
+          )}
+
           {/* Siguiente estación */}
           {siguiente.slug !== p.slug && (
             <Link
