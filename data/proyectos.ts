@@ -108,6 +108,11 @@ export const proyectos: Proyecto[] = [
     imagen: "/proyectos/redline-portada.webp",
     encuadre: "captura",
     pieImagen: "Página de inicio.",
+    video: {
+      src: "/proyectos/redline-short.mp4",
+      poster: "/proyectos/redline-short-poster.webp",
+      pie: "REDLINE/26 en 27 segundos: datos oficiales, titulares que se escriben solos y la copia de seguridad que evita que la web se quede en blanco. Montaje programado con Remotion, móvil en 3D con Blender y voz generada con IA.",
+    },
     estado: "Publicada · datos oficiales en tiempo real",
     estadoCorto: "Datos en tiempo real",
     marca: "servicio",
