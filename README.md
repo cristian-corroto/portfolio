@@ -35,4 +35,4 @@ Después abre <http://127.0.0.1:3000>. Los textos de proyectos, formación y apt
 
 ## Contacto
 
-Escríbeme a cristiancorroto@gmail.com o encuéntrame en [GitHub](https://github.com/cristian-corroto).
+Escríbeme a contacto@cristiancorroto.com o encuéntrame en [GitHub](https://github.com/cristian-corroto).
