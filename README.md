@@ -1,6 +1,6 @@
 # Portfolio de Cristian Corroto
 
-**Verlo en directo: <https://cristian-corroto.netlify.app>**
+**Verlo en directo: <https://cristian-corroto.pages.dev>**
 
 Hola, soy Cristian. He estudiado Desarrollo de Aplicaciones Multiplataforma (DAM) y me dedico al desarrollo de software, al desarrollo web y a la IA aplicada. Esta es la web donde cuento qué he hecho y cómo trabajo.
 
@@ -20,7 +20,7 @@ La web se ve bien en móvil, tableta y ordenador.
 
 ## Cómo está hecha
 
-Con Next.js (React), TypeScript y Tailwind CSS, y Framer Motion para las animaciones. Es una web estática, sin servidor propio, publicada en Netlify.
+Con Next.js (React), TypeScript y Tailwind CSS, y Framer Motion para las animaciones. Es una web estática, sin servidor propio, publicada en Cloudflare Pages y desplegada automáticamente con GitHub Actions en cada cambio.
 
 ## Si quieres ejecutarla en tu ordenador
 

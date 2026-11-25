@@ -7,7 +7,7 @@ import "./globals.css";
 const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], display: "swap", variable: "--font-archivo" });
 
 // Cuando la web esté publicada, define NEXT_PUBLIC_SITE_URL con su dirección real
-// (por ejemplo https://cristian-corroto.netlify.app) para que la vista previa al compartir funcione.
+// (por ejemplo https://cristian-corroto.pages.dev; en GitHub Actions se define en .github/workflows/deploy.yml) para que la vista previa al compartir funcione.
 const urlSitio = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 const titulo = "Cristian Corroto · Desarrollador junior";
