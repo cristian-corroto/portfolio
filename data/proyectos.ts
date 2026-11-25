@@ -58,7 +58,7 @@ export const proyectos: Proyecto[] = [
     ia: "Apoyo intensivo de IA en casi todas sus partes, sobre todo en el backend en Python, que no estudié en el ciclo.",
     yo: "Yo decidí qué tenía que hacer la app, probé cada funcionalidad y la llevé hasta un APK que se instala.",
     enlaces: [
-      { texto: "Web y descarga del APK", href: "https://saferouteai-app.pages.dev/" },
+      { texto: "Web y descarga del APK", href: "https://saferoute.cristiancorroto.com/" },
       { texto: "Código de la app", href: "https://github.com/cristian-corroto/saferoute-ai-android" },
       { texto: "Código del backend", href: "https://github.com/cristian-corroto/saferoute-ai-backend" },
     ],
@@ -135,7 +135,7 @@ export const proyectos: Proyecto[] = [
     ia: "Apoyo intensivo de IA en el código, en las animaciones y en la integración con la API de datos.",
     yo: "Yo planteé la idea: que la web se sintiera como una retransmisión de televisión. Elegí el estilo y las animaciones, revisé cada pantalla y pedí cambios hasta que la portada estuvo a la altura. Cuando actualizar los datos a mano tras cada GP se volvió un problema, propuse que la web se actualizara sola y comprobé que los datos coincidieran con los oficiales.",
     enlaces: [
-      { texto: "Ver la web", href: "https://redline-26.pages.dev/" },
+      { texto: "Ver la web", href: "https://redline.cristiancorroto.com/" },
       { texto: "Ver el código", href: "https://github.com/cristian-corroto/redline-26" },
     ],
   },
@@ -162,7 +162,7 @@ export const proyectos: Proyecto[] = [
     tecnologias: ["HTML", "CSS", "JavaScript", "Cloudflare Pages"],
     ia: "Hecha con apoyo de IA.",
     yo: "Yo decidí qué contar y revisé que cada dato fuera cierto: sin «tiempo real» ni cifras infladas.",
-    enlaces: [{ texto: "Ver la web", href: "https://saferouteai-app.pages.dev/" }],
+    enlaces: [{ texto: "Ver la web", href: "https://saferoute.cristiancorroto.com/" }],
   },
   {
     slug: "tigeros",

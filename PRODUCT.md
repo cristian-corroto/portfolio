@@ -24,12 +24,12 @@ Desarrolla con IA y lo dice desde el principio: en cada proyecto cuenta qué hiz
 
 ## Operating Context
 
-Se ve en móvil y en escritorio. Se publica como sitio estático en Cloudflare Pages (cristian-corroto.pages.dev) con GitHub Actions. Repo público en GitHub (cristian-corroto/portfolio).
+Se ve en móvil y en escritorio. Se publica como sitio estático en Cloudflare Pages (cristiancorroto.com) con GitHub Actions. Repo público en GitHub (cristian-corroto/portfolio).
 
 ## Capabilities and Constraints
 
 - Next.js 15 (export estático), React 19, Tailwind 4, Framer Motion. Sin servidor.
-- Proyectos reales: SafeRouteAI (app Android + API, publicada como APK), web de SafeRouteAI (publicada), JothanPh Fotografía (web completa de su hermano, publicada en un VPS propio con dirección provisional; falta pasarle el dominio), REDLINE/26 (web animada sobre el Mundial de MotoGP 2026, publicada en redline-26.pages.dev, con datos oficiales en tiempo real que trae GitHub Actions y sirve Cloudflare). Hay además una web hecha para un negocio real que no se muestra hasta tener el permiso del cliente; su ficha está fuera de este repo.
+- Proyectos reales: SafeRouteAI (app Android + API, publicada como APK), web de SafeRouteAI (publicada), JothanPh Fotografía (web completa de su hermano, publicada en un VPS propio con dirección provisional; falta pasarle el dominio), REDLINE/26 (web animada sobre el Mundial de MotoGP 2026, publicada en redline.cristiancorroto.com, con datos oficiales en tiempo real que trae GitHub Actions y sirve Cloudflare). Hay además una web hecha para un negocio real que no se muestra hasta tener el permiso del cliente; su ficha está fuera de este repo.
 - Formación: SMR (2021–2023), DAM (2024–2026). Prácticas en el Hospital de Villalba (2023) y en un despacho de abogados (2025).
 
 ## Brand Commitments

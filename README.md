@@ -1,6 +1,6 @@
 # Portfolio de Cristian Corroto
 
-**Verlo en directo: <https://cristian-corroto.pages.dev>**
+**Verlo en directo: <https://cristiancorroto.com>**
 
 Hola, soy Cristian. He estudiado Desarrollo de Aplicaciones Multiplataforma (DAM) y me dedico al desarrollo de software, al desarrollo web y a la IA aplicada. Esta es la web donde cuento qué he hecho y cómo trabajo.
 
